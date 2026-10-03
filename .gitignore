@@ -1,0 +1,4 @@
+# raw downloads (Valve announcement texts etc.) are re-created by the fetch scripts and are not republished
+raw/
+__pycache__/
+.claude/

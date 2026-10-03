@@ -1,0 +1,9193 @@
+{
+ "generated": "2026-10-03 19:31 UTC",
+ "months": [
+  "2024-01",
+  "2024-02",
+  "2024-03",
+  "2024-04",
+  "2024-05",
+  "2024-06",
+  "2024-07",
+  "2024-08",
+  "2024-09",
+  "2024-10",
+  "2024-11",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-07",
+  "2025-08",
+  "2025-09",
+  "2025-10",
+  "2025-11",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08",
+  "2026-09",
+  "2026-10"
+ ],
+ "window": {
+  "start": "2024-05",
+  "end": "2026-09",
+  "months": [
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09"
+  ],
+  "year": [
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09"
+  ]
+ },
+ "events": {
+  "cs2": [
+   {
+    "date": "2024-01-04",
+    "titles": [
+     "Release Notes for 1/4/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 7,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-01-18",
+    "titles": [
+     "Release Notes for 1/18/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-02-06",
+    "titles": [
+     "Release Notes for 2/6/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 69,
+    "fix": 23,
+    "new": 18,
+    "tune": 23,
+    "other": 5,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-02-07",
+    "titles": [
+     "Release Notes for 2/7/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 9,
+    "new": 0,
+    "tune": 3,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-02-08",
+    "titles": [
+     "Release Notes for 2/8/2024 Night",
+     "Release Notes for 2/8/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 12,
+    "new": 1,
+    "tune": 1,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-02-12",
+    "titles": [
+     "Release Notes for 2/12/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 8,
+    "new": 1,
+    "tune": 2,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-02-15",
+    "titles": [
+     "Release Notes for 2/15/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 23,
+    "fix": 9,
+    "new": 2,
+    "tune": 7,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2024-02-16",
+    "titles": [
+     "Release Notes for 2/16/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 3,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-02-28",
+    "titles": [
+     "Release Notes for 2/28/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 31,
+    "fix": 12,
+    "new": 1,
+    "tune": 11,
+    "other": 7,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-03-13",
+    "titles": [
+     "Release Notes for 3/13/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 3,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-03-19",
+    "titles": [
+     "Release Notes for 3/19/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 1,
+    "new": 4,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-02",
+    "titles": [
+     "Release Notes for 4/2/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-16",
+    "titles": [
+     "Release Notes for 4/16/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-25",
+    "titles": [
+     "Release Notes for 4/25/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 41,
+    "fix": 2,
+    "new": 15,
+    "tune": 10,
+    "other": 14,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-04-26",
+    "titles": [
+     "Release Notes for 4/26/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 6,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-30",
+    "titles": [
+     "Release Notes for 4/30/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 1,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-01",
+    "titles": [
+     "Release Notes for 5/1/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 1,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-02",
+    "titles": [
+     "Release Notes for 5/2/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-07",
+    "titles": [
+     "Release Notes for 5/7/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 3,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-09",
+    "titles": [
+     "Release Notes for 5/9/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 4,
+    "new": 0,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-22",
+    "titles": [
+     "Release Notes for 5/22/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 1,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-23",
+    "titles": [
+     "Release Notes for 5/23/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 33,
+    "fix": 7,
+    "new": 2,
+    "tune": 14,
+    "other": 10,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-05-24",
+    "titles": [
+     "Release Notes for 5/24/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-29",
+    "titles": [
+     "Release Notes for 5/29/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 5,
+    "new": 0,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-04",
+    "titles": [
+     "Release Notes for 6/4/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 3,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-10",
+    "titles": [
+     "Release Notes for 6/10/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 2,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-11",
+    "titles": [
+     "Release Notes for 6/11/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-13",
+    "titles": [
+     "Release Notes for 6/13/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 3,
+    "new": 1,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-20",
+    "titles": [
+     "Release Notes for 6/20/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-25",
+    "titles": [
+     "Release Notes for 6/25/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 23,
+    "fix": 4,
+    "new": 11,
+    "tune": 5,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2024-06-26",
+    "titles": [
+     "Release Notes for 06/26/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 3,
+    "new": 1,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-27",
+    "titles": [
+     "Release Notes for 06/27/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-07-02",
+    "titles": [
+     "Release Notes for 7/2/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 2,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-07-11",
+    "titles": [
+     "Release Notes for 7/11/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 3,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-07-22",
+    "titles": [
+     "Release Notes for 7/22/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 0,
+    "new": 2,
+    "tune": 2,
+    "other": 4,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-08",
+    "titles": [
+     "Release Notes for 8/8/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 0,
+    "new": 1,
+    "tune": 6,
+    "other": 6,
+    "tier": "small"
+   },
+   {
+    "date": "2024-08-14",
+    "titles": [
+     "Release Notes for 8/14/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-19",
+    "titles": [
+     "Release Notes for 8/19/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 0,
+    "new": 0,
+    "tune": 5,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-20",
+    "titles": [
+     "Release Notes for 8/20/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 1,
+    "new": 0,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-21",
+    "titles": [
+     "Release Notes for 8/21/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 24,
+    "fix": 14,
+    "new": 1,
+    "tune": 2,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2024-08-22",
+    "titles": [
+     "Release Notes for 8/22/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-03",
+    "titles": [
+     "Release Notes for 9/3/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 4,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-09",
+    "titles": [
+     "Release Notes for 9/9/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 2,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-10",
+    "titles": [
+     "Release Notes for 9/10/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-02",
+    "titles": [
+     "Release Notes for 10/2/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 68,
+    "fix": 23,
+    "new": 11,
+    "tune": 17,
+    "other": 17,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-10-03",
+    "titles": [
+     "Release Notes for 10/3/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 2,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-04",
+    "titles": [
+     "Release Notes for 10/4/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 5,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-08",
+    "titles": [
+     "Release Notes for 10/8/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 1,
+    "new": 0,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-09",
+    "titles": [
+     "Release Notes for 10/9/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-15",
+    "titles": [
+     "Release Notes for 10/15/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 6,
+    "new": 2,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-23",
+    "titles": [
+     "Release Notes for 10/23/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 6,
+    "new": 1,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-24",
+    "titles": [
+     "Release Notes for 10/24/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 3,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-28",
+    "titles": [
+     "Release Notes for 10/28/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 3,
+    "new": 0,
+    "tune": 7,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-29",
+    "titles": [
+     "Release Notes for 10/29/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 3,
+    "new": 1,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-30",
+    "titles": [
+     "Release Notes for 10/30/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-07",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 20,
+    "fix": 11,
+    "new": 1,
+    "tune": 5,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2024-11-12",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 1,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-13",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 51,
+    "fix": 12,
+    "new": 11,
+    "tune": 7,
+    "other": 21,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-11-14",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 6,
+    "new": 1,
+    "tune": 1,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2024-11-15",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 2,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-20",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 9,
+    "new": 0,
+    "tune": 4,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-11-27",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 19,
+    "fix": 4,
+    "new": 6,
+    "tune": 5,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2024-12-03",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 16,
+    "fix": 3,
+    "new": 1,
+    "tune": 4,
+    "other": 8,
+    "tier": "small"
+   },
+   {
+    "date": "2024-12-19",
+    "titles": [
+     "Counter-Strike 2 Update",
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 30,
+    "fix": 8,
+    "new": 5,
+    "tune": 12,
+    "other": 5,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-01-07",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 5,
+    "new": 0,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-01-10",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 5,
+    "new": 4,
+    "tune": 1,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2025-01-15",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 4,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-01-17",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-01-22",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 0,
+    "new": 1,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-01-28",
+    "titles": [
+     "Counter-Strike 2 Update",
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 18,
+    "fix": 2,
+    "new": 2,
+    "tune": 9,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2025-01-30",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-02-04",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 7,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-02-06",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 1,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-02-13",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-02-28",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 4,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-03-20",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 1,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-03-31",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 23,
+    "fix": 3,
+    "new": 1,
+    "tune": 6,
+    "other": 13,
+    "tier": "small"
+   },
+   {
+    "date": "2025-05-07",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 17,
+    "fix": 3,
+    "new": 4,
+    "tune": 3,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2025-05-08",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 4,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-05-12",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-05-13",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 1,
+    "new": 1,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-05-15",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 3,
+    "new": 0,
+    "tune": 3,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-05-19",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-05-21",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-07-02",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 3,
+    "new": 1,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-07-03",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 1,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-07-16",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 0,
+    "new": 1,
+    "tune": 3,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-07-28",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 36,
+    "fix": 2,
+    "new": 4,
+    "tune": 14,
+    "other": 16,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-07-30",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 12,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2025-07-31",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-08-01",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 3,
+    "new": 0,
+    "tune": 3,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-08-14",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 17,
+    "fix": 3,
+    "new": 4,
+    "tune": 8,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2025-08-18",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 7,
+    "new": 0,
+    "tune": 1,
+    "other": 6,
+    "tier": "small"
+   },
+   {
+    "date": "2025-08-26",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 8,
+    "new": 0,
+    "tune": 3,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2025-08-27",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-03",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 7,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2025-09-06",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-08",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 0,
+    "tune": 1,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-10",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-16",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 0,
+    "new": 4,
+    "tune": 2,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-17",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 4,
+    "new": 1,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-19",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-24",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 4,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-09-25",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 34,
+    "fix": 2,
+    "new": 25,
+    "tune": 5,
+    "other": 2,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-09-26",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 1,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-10-01",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 64,
+    "fix": 3,
+    "new": 38,
+    "tune": 8,
+    "other": 15,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-10-02",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 5,
+    "new": 2,
+    "tune": 1,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-03",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-10-13",
+    "titles": [
+     "Counter-Strike 2 Pre-Release Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 25,
+    "fix": 1,
+    "new": 3,
+    "tune": 13,
+    "other": 8,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-14",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 27,
+    "fix": 1,
+    "new": 3,
+    "tune": 15,
+    "other": 8,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-16",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 3,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-10-22",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 3,
+    "new": 1,
+    "tune": 2,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-23",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 0,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-10-29",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 1,
+    "new": 3,
+    "tune": 2,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2025-11-04",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 7,
+    "new": 1,
+    "tune": 1,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2025-11-12",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 3,
+    "new": 2,
+    "tune": 6,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2025-11-14",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 4,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-11-19",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-12-08",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 1,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-12-18",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-01-21",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 56,
+    "fix": 5,
+    "new": 9,
+    "tune": 23,
+    "other": 19,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-01-22",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 3,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-01-27",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 2,
+    "new": 0,
+    "tune": 1,
+    "other": 5,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-01-30",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 1,
+    "new": 1,
+    "tune": 2,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-02-04",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-02-09",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-02-23",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 3,
+    "new": 0,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-02-25",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 17,
+    "fix": 1,
+    "new": 9,
+    "tune": 2,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2026-03-04",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 22,
+    "fix": 5,
+    "new": 11,
+    "tune": 1,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2026-03-11",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 1,
+    "new": 0,
+    "tune": 1,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-03-16",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-03-18",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 0,
+    "new": 0,
+    "tune": 5,
+    "other": 4,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-01",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 27,
+    "fix": 3,
+    "new": 2,
+    "tune": 7,
+    "other": 15,
+    "tier": "small"
+   },
+   {
+    "date": "2026-04-09",
+    "titles": [
+     "Animgraph 2 Beta Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-14",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 7,
+    "new": 1,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-17",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-20",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 5,
+    "new": 0,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-21",
+    "titles": [
+     "Counter-Strike 2 Update",
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 3,
+    "new": 0,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-22",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-04-24",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 7,
+    "new": 0,
+    "tune": 4,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2026-04-28",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 3,
+    "new": 2,
+    "tune": 2,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2026-04-29",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 20,
+    "fix": 7,
+    "new": 0,
+    "tune": 6,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2026-04-30",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 7,
+    "new": 1,
+    "tune": 2,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2026-05-07",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 6,
+    "new": 0,
+    "tune": 5,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2026-05-14",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 5,
+    "new": 2,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-05-18",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 24,
+    "fix": 5,
+    "new": 13,
+    "tune": 4,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2026-05-20",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-05-22",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 3,
+    "new": 0,
+    "tune": 5,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-05-29",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 0,
+    "new": 2,
+    "tune": 1,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-06-10",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 4,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-01",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-08",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 31,
+    "fix": 5,
+    "new": 11,
+    "tune": 8,
+    "other": 7,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-07-09",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 3,
+    "new": 1,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-15",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 4,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-20",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 0,
+    "new": 2,
+    "tune": 2,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-29",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 3,
+    "new": 0,
+    "tune": 2,
+    "other": 3,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-08-03",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 32,
+    "fix": 5,
+    "new": 24,
+    "tune": 0,
+    "other": 3,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-08-12",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-08-19",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-08-24",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 40,
+    "fix": 0,
+    "new": 28,
+    "tune": 2,
+    "other": 10,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-09-09",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 3,
+    "new": 4,
+    "tune": 2,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2026-09-22",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 39,
+    "fix": 3,
+    "new": 11,
+    "tune": 15,
+    "other": 10,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-09-23",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 5,
+    "new": 2,
+    "tune": 6,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2026-09-24",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 3,
+    "new": 1,
+    "tune": 1,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-09-25",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 2,
+    "new": 1,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-09-28",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-09-30",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 2,
+    "new": 3,
+    "tune": 3,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-10-02",
+    "titles": [
+     "Counter-Strike 2 Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "tier": "micro"
+   }
+  ],
+  "dota2": [
+   {
+    "date": "2024-01-08",
+    "titles": [
+     "Dota 2 Update - 1/8/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 9,
+    "new": 1,
+    "tune": 0,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-02-21",
+    "titles": [
+     "Patch 7.35c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 145,
+    "fix": 1,
+    "new": 0,
+    "tune": 144,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2024-03-21",
+    "titles": [
+     "Patch 7.35d"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 113,
+    "fix": 0,
+    "new": 0,
+    "tune": 112,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2024-03-28",
+    "titles": [
+     "Dota 2 Update 3/28/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 1,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-22",
+    "titles": [
+     "Dota 2 Update - 4/22/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 14,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-05-22",
+    "titles": [
+     "Patch 7.36"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1640,
+    "fix": 5,
+    "new": 99,
+    "tune": 1399,
+    "other": 137,
+    "tier": "large"
+   },
+   {
+    "date": "2024-05-26",
+    "titles": [
+     "Patch 7.36a"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 204,
+    "fix": 86,
+    "new": 0,
+    "tune": 118,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2024-06-06",
+    "titles": [
+     "Patch 7.36b"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 335,
+    "fix": 26,
+    "new": 0,
+    "tune": 277,
+    "other": 32,
+    "tier": "large"
+   },
+   {
+    "date": "2024-06-24",
+    "titles": [
+     "Patch 7.36c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 191,
+    "fix": 44,
+    "new": 0,
+    "tune": 147,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2024-07-31",
+    "titles": [
+     "Patch 7.37"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 673,
+    "fix": 1,
+    "new": 13,
+    "tune": 514,
+    "other": 145,
+    "tier": "large"
+   },
+   {
+    "date": "2024-08-14",
+    "titles": [
+     "Patch 7.37b"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 163,
+    "fix": 24,
+    "new": 0,
+    "tune": 139,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2024-08-28",
+    "titles": [
+     "Patch 7.37c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 82,
+    "fix": 0,
+    "new": 0,
+    "tune": 82,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-10-01",
+    "titles": [
+     "Patch 7.37d"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 148,
+    "fix": 0,
+    "new": 0,
+    "tune": 148,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2024-11-08",
+    "titles": [
+     "Dota 2 Update - 11/8/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 0,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-12",
+    "titles": [
+     "Dota 2 Update - 11/12/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 31,
+    "fix": 24,
+    "new": 0,
+    "tune": 7,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-11-19",
+    "titles": [
+     "Patch 7.37e"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 112,
+    "fix": 2,
+    "new": 0,
+    "tune": 110,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2024-12-03",
+    "titles": [
+     "Dota 2 Update - 12/3/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 16,
+    "fix": 7,
+    "new": 1,
+    "tune": 7,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-12-05",
+    "titles": [
+     "Dota 2 Update - 12/5/2024"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 19,
+    "fix": 14,
+    "new": 1,
+    "tune": 4,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2025-02-18",
+    "titles": [
+     "Patch 7.38"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1620,
+    "fix": 3,
+    "new": 35,
+    "tune": 1418,
+    "other": 164,
+    "tier": "large"
+   },
+   {
+    "date": "2025-02-21",
+    "titles": [
+     "Dota 2 Update - 2/21/2025"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 48,
+    "fix": 47,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-03-04",
+    "titles": [
+     "Patch 7.38b"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 173,
+    "fix": 14,
+    "new": 0,
+    "tune": 154,
+    "other": 5,
+    "tier": "large"
+   },
+   {
+    "date": "2025-03-19",
+    "titles": [
+     "Dota 2 Update - 3/19/2025"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 0,
+    "new": 0,
+    "tune": 5,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-03-27",
+    "titles": [
+     "Patch 7.38c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 207,
+    "fix": 42,
+    "new": 1,
+    "tune": 144,
+    "other": 20,
+    "tier": "large"
+   },
+   {
+    "date": "2025-05-22",
+    "titles": [
+     "Patch 7.39"
+    ],
+    "sources": [
+     "dota2.com"
+    ],
+    "stub": false,
+    "entries": 719,
+    "fix": 4,
+    "new": 10,
+    "tune": 643,
+    "other": 62,
+    "tier": "large"
+   },
+   {
+    "date": "2025-05-29",
+    "titles": [
+     "Patch 7.39b"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 145,
+    "fix": 59,
+    "new": 2,
+    "tune": 72,
+    "other": 12,
+    "tier": "large"
+   },
+   {
+    "date": "2025-06-24",
+    "titles": [
+     "Patch 7.39c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 117,
+    "fix": 15,
+    "new": 1,
+    "tune": 99,
+    "other": 2,
+    "tier": "large"
+   },
+   {
+    "date": "2025-08-05",
+    "titles": [
+     "Patch 7.39d"
+    ],
+    "sources": [
+     "dota2.com"
+    ],
+    "stub": false,
+    "entries": 106,
+    "fix": 2,
+    "new": 0,
+    "tune": 103,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2025-08-08",
+    "titles": [
+     "Dota 2 Update - 08/08/2025"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 32,
+    "fix": 31,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-08-22",
+    "titles": [
+     "Dota 2 Update - 08/22/2025"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 18,
+    "fix": 18,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2025-08-28",
+    "titles": [
+     "Dota 2 Update - 8/28/2025"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 5,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-10-02",
+    "titles": [
+     "Patch 7.39e"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 98,
+    "fix": 2,
+    "new": 1,
+    "tune": 92,
+    "other": 3,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-10-09",
+    "titles": [
+     "Dota 2 Update - 10/09/2025"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 17,
+    "fix": 10,
+    "new": 0,
+    "tune": 4,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2025-12-15",
+    "titles": [
+     "Patch 7.40"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1005,
+    "fix": 2,
+    "new": 10,
+    "tune": 883,
+    "other": 110,
+    "tier": "large"
+   },
+   {
+    "date": "2025-12-23",
+    "titles": [
+     "Patch 7.40b"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 221,
+    "fix": 35,
+    "new": 0,
+    "tune": 185,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2026-01-21",
+    "titles": [
+     "Patch 7.40c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 112,
+    "fix": 18,
+    "new": 1,
+    "tune": 93,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2026-01-30",
+    "titles": [
+     "Dota 2 Update - 1/30/2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 8,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2026-03-24",
+    "titles": [
+     "Patch 7.41"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1665,
+    "fix": 8,
+    "new": 47,
+    "tune": 1396,
+    "other": 214,
+    "tier": "large"
+   },
+   {
+    "date": "2026-03-27",
+    "titles": [
+     "Patch 7.41a"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 140,
+    "fix": 50,
+    "new": 1,
+    "tune": 87,
+    "other": 2,
+    "tier": "large"
+   },
+   {
+    "date": "2026-03-31",
+    "titles": [
+     "Dota 2 Update - 3/31/2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 27,
+    "fix": 26,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2026-04-07",
+    "titles": [
+     "Patch 7.41b"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 181,
+    "fix": 2,
+    "new": 0,
+    "tune": 176,
+    "other": 3,
+    "tier": "large"
+   },
+   {
+    "date": "2026-05-06",
+    "titles": [
+     "Patch 7.41c"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 261,
+    "fix": 60,
+    "new": 1,
+    "tune": 196,
+    "other": 4,
+    "tier": "large"
+   },
+   {
+    "date": "2026-06-04",
+    "titles": [
+     "Patch 7.41d"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 219,
+    "fix": 16,
+    "new": 0,
+    "tune": 203,
+    "other": 0,
+    "tier": "large"
+   },
+   {
+    "date": "2026-07-01",
+    "titles": [
+     "Dota 2 Update - 7/1/2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 72,
+    "fix": 65,
+    "new": 0,
+    "tune": 7,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-07-30",
+    "titles": [
+     "Patch 7.41e"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 154,
+    "fix": 2,
+    "new": 0,
+    "tune": 150,
+    "other": 2,
+    "tier": "large"
+   },
+   {
+    "date": "2026-09-15",
+    "titles": [
+     "Patch 7.41f"
+    ],
+    "sources": [
+     "dota2.com",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 111,
+    "fix": 11,
+    "new": 0,
+    "tune": 100,
+    "other": 0,
+    "tier": "large"
+   }
+  ],
+  "deadlock": [
+   {
+    "date": "2024-05-03",
+    "titles": [
+     "Forum: 05-03-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 80,
+    "fix": 12,
+    "new": 8,
+    "tune": 58,
+    "other": 2,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-05-10",
+    "titles": [
+     "Forum: 05-10-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 132,
+    "fix": 15,
+    "new": 3,
+    "tune": 104,
+    "other": 10,
+    "tier": "large"
+   },
+   {
+    "date": "2024-05-13",
+    "titles": [
+     "Forum: 05-13-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 3,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-16",
+    "titles": [
+     "Forum: 05-16-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 106,
+    "fix": 11,
+    "new": 8,
+    "tune": 81,
+    "other": 6,
+    "tier": "large"
+   },
+   {
+    "date": "2024-05-19",
+    "titles": [
+     "Forum: 05-19-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-23",
+    "titles": [
+     "Forum: 05-23-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 156,
+    "fix": 18,
+    "new": 12,
+    "tune": 118,
+    "other": 8,
+    "tier": "large"
+   },
+   {
+    "date": "2024-05-24",
+    "titles": [
+     "Forum: 05-24-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-05-30",
+    "titles": [
+     "Forum: 05-30-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 145,
+    "fix": 17,
+    "new": 8,
+    "tune": 111,
+    "other": 9,
+    "tier": "large"
+   },
+   {
+    "date": "2024-06-01",
+    "titles": [
+     "Forum: 06-01-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-06",
+    "titles": [
+     "Forum: 06-06-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 146,
+    "fix": 11,
+    "new": 10,
+    "tune": 110,
+    "other": 15,
+    "tier": "large"
+   },
+   {
+    "date": "2024-06-07",
+    "titles": [
+     "Forum: 06-07-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 2,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-13",
+    "titles": [
+     "Forum: 06-13-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 138,
+    "fix": 17,
+    "new": 15,
+    "tune": 95,
+    "other": 11,
+    "tier": "large"
+   },
+   {
+    "date": "2024-06-14",
+    "titles": [
+     "Forum: 06-14-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-16",
+    "titles": [
+     "Forum: 06-16-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-20",
+    "titles": [
+     "Forum: 06-20-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 164,
+    "fix": 11,
+    "new": 13,
+    "tune": 131,
+    "other": 9,
+    "tier": "large"
+   },
+   {
+    "date": "2024-06-23",
+    "titles": [
+     "Forum: 06-23-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 0,
+    "new": 0,
+    "tune": 7,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-06-27",
+    "titles": [
+     "Forum: 06-27-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 159,
+    "fix": 15,
+    "new": 8,
+    "tune": 118,
+    "other": 18,
+    "tier": "large"
+   },
+   {
+    "date": "2024-07-04",
+    "titles": [
+     "Forum: 07-04-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 184,
+    "fix": 13,
+    "new": 13,
+    "tune": 146,
+    "other": 12,
+    "tier": "large"
+   },
+   {
+    "date": "2024-07-11",
+    "titles": [
+     "Forum: 07-11-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 182,
+    "fix": 18,
+    "new": 16,
+    "tune": 131,
+    "other": 17,
+    "tier": "large"
+   },
+   {
+    "date": "2024-07-18",
+    "titles": [
+     "Forum: 07-18-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 207,
+    "fix": 8,
+    "new": 11,
+    "tune": 175,
+    "other": 13,
+    "tier": "large"
+   },
+   {
+    "date": "2024-07-23",
+    "titles": [
+     "Forum: 07-23-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 5,
+    "new": 0,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-01",
+    "titles": [
+     "Forum: 08-01-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 212,
+    "fix": 30,
+    "new": 11,
+    "tune": 144,
+    "other": 27,
+    "tier": "large"
+   },
+   {
+    "date": "2024-08-06",
+    "titles": [
+     "Forum: 08-06-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 4,
+    "new": 2,
+    "tune": 4,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2024-08-15",
+    "titles": [
+     "Forum: 08-15-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 318,
+    "fix": 28,
+    "new": 32,
+    "tune": 228,
+    "other": 30,
+    "tier": "large"
+   },
+   {
+    "date": "2024-08-16",
+    "titles": [
+     "Forum: 08-16-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 25,
+    "fix": 8,
+    "new": 0,
+    "tune": 16,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-08-18",
+    "titles": [
+     "Forum: 08-18-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-22",
+    "titles": [
+     "Forum: 08-22-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 3,
+    "new": 0,
+    "tune": 11,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-08-23",
+    "titles": [
+     "Forum: 08-23-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-08-29",
+    "titles": [
+     "Forum: 08-29-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 297,
+    "fix": 35,
+    "new": 27,
+    "tune": 203,
+    "other": 32,
+    "tier": "large"
+   },
+   {
+    "date": "2024-09-01",
+    "titles": [
+     "Forum: 09-01-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 1,
+    "new": 0,
+    "tune": 10,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-09-12",
+    "titles": [
+     "Forum: 09-12-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 281,
+    "fix": 25,
+    "new": 27,
+    "tune": 191,
+    "other": 38,
+    "tier": "large"
+   },
+   {
+    "date": "2024-09-14",
+    "titles": [
+     "Forum: 09-14-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 8,
+    "fix": 0,
+    "new": 0,
+    "tune": 8,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-17",
+    "titles": [
+     "Forum: 09-17-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 4,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-19",
+    "titles": [
+     "Forum: 09-19-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 2,
+    "new": 0,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-26",
+    "titles": [
+     "Forum: 09-26-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 283,
+    "fix": 46,
+    "new": 23,
+    "tune": 185,
+    "other": 29,
+    "tier": "large"
+   },
+   {
+    "date": "2024-09-27",
+    "titles": [
+     "Forum: 09-27-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-09-29",
+    "titles": [
+     "Forum: 09-29-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 1,
+    "new": 0,
+    "tune": 3,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-02",
+    "titles": [
+     "Forum: 10-02-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 15,
+    "fix": 5,
+    "new": 0,
+    "tune": 10,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-07",
+    "titles": [
+     "Forum: 10-07-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-10",
+    "titles": [
+     "Forum: 10-10-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 327,
+    "fix": 32,
+    "new": 34,
+    "tune": 226,
+    "other": 35,
+    "tier": "large"
+   },
+   {
+    "date": "2024-10-11",
+    "titles": [
+     "Forum: 10-11-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 2,
+    "new": 0,
+    "tune": 10,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-15",
+    "titles": [
+     "Forum: 10-15-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 0,
+    "new": 0,
+    "tune": 10,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-18",
+    "titles": [
+     "Forum: 10-18-2024 2",
+     "Forum: 10-18-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-10-24",
+    "titles": [
+     "Forum: 10-24-2024",
+     "10-24-2024 Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 288,
+    "fix": 19,
+    "new": 23,
+    "tune": 218,
+    "other": 28,
+    "tier": "large"
+   },
+   {
+    "date": "2024-10-27",
+    "titles": [
+     "Forum: 10-27-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 20,
+    "fix": 0,
+    "new": 0,
+    "tune": 20,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-29",
+    "titles": [
+     "Forum: 10-29-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 1,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-01",
+    "titles": [
+     "Forum: 11-01-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 0,
+    "new": 0,
+    "tune": 9,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-07",
+    "titles": [
+     "Forum: 11-07-2024",
+     "11-07-2024 Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 227,
+    "fix": 21,
+    "new": 24,
+    "tune": 161,
+    "other": 21,
+    "tier": "large"
+   },
+   {
+    "date": "2024-11-10",
+    "titles": [
+     "Forum: 11-10-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 0,
+    "new": 0,
+    "tune": 5,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-11-13",
+    "titles": [
+     "Forum: 11-13-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 0,
+    "new": 0,
+    "tune": 12,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-11-21",
+    "titles": [
+     "Forum: 11-21-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 357,
+    "fix": 29,
+    "new": 23,
+    "tune": 271,
+    "other": 34,
+    "tier": "large"
+   },
+   {
+    "date": "2024-11-29",
+    "titles": [
+     "Forum: 11-29-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-12-06",
+    "titles": [
+     "Forum: 12-06-2024",
+     "12-06-2024 Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 274,
+    "fix": 28,
+    "new": 16,
+    "tune": 213,
+    "other": 17,
+    "tier": "large"
+   },
+   {
+    "date": "2024-12-17",
+    "titles": [
+     "Forum: 12-17-2024",
+     "Winter Visual Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-12-21",
+    "titles": [
+     "Forum: 12-21-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 25,
+    "fix": 5,
+    "new": 0,
+    "tune": 20,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2024-12-31",
+    "titles": [
+     "Forum: 12-31-2024"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 19,
+    "fix": 0,
+    "new": 0,
+    "tune": 19,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2025-01-12",
+    "titles": [
+     "Forum: 01-12-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 0,
+    "new": 0,
+    "tune": 11,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2025-01-17",
+    "titles": [
+     "Forum: 01-17-2025",
+     "Holliday, Vyper, Calico, and The Magnificent Sinclair"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 13,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 12,
+    "tier": "release"
+   },
+   {
+    "date": "2025-01-19",
+    "titles": [
+     "Forum: 01-19-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 57,
+    "fix": 3,
+    "new": 0,
+    "tune": 54,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-01-27",
+    "titles": [
+     "Forum: 01-27-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 66,
+    "fix": 6,
+    "new": 0,
+    "tune": 53,
+    "other": 7,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-02-11",
+    "titles": [
+     "Forum: 02-11-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 20,
+    "fix": 0,
+    "new": 0,
+    "tune": 20,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2025-02-25",
+    "titles": [
+     "Forum: 02-25-2025",
+     "Map Rework Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 2,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-03-13",
+    "titles": [
+     "Forum: 03-13-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 24,
+    "fix": 0,
+    "new": 0,
+    "tune": 22,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2025-03-16",
+    "titles": [
+     "Forum: 03-16-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-03-19",
+    "titles": [
+     "Forum: 03-19-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-04-04",
+    "titles": [
+     "Forum: 04-04-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 37,
+    "fix": 8,
+    "new": 1,
+    "tune": 24,
+    "other": 4,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-04-17",
+    "titles": [
+     "Forum: 04-17-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 109,
+    "fix": 11,
+    "new": 0,
+    "tune": 97,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2025-05-08",
+    "titles": [
+     "Forum: 05-08-2025",
+     "Shop Rework Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 524,
+    "fix": 79,
+    "new": 69,
+    "tune": 192,
+    "other": 184,
+    "tier": "large"
+   },
+   {
+    "date": "2025-05-11",
+    "titles": [
+     "Forum: 05-11-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 32,
+    "fix": 1,
+    "new": 0,
+    "tune": 31,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-05-19",
+    "titles": [
+     "Forum: 05-19-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 153,
+    "fix": 0,
+    "new": 1,
+    "tune": 149,
+    "other": 3,
+    "tier": "large"
+   },
+   {
+    "date": "2025-05-21",
+    "titles": [
+     "Forum: 05-21-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 32,
+    "fix": 3,
+    "new": 2,
+    "tune": 22,
+    "other": 5,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-05-27",
+    "titles": [
+     "Forum: 05-27-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 94,
+    "fix": 17,
+    "new": 2,
+    "tune": 75,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-06-17",
+    "titles": [
+     "Forum: 06-17-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 72,
+    "fix": 2,
+    "new": 3,
+    "tune": 57,
+    "other": 10,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-07-04",
+    "titles": [
+     "Forum: 07-04-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 136,
+    "fix": 14,
+    "new": 1,
+    "tune": 119,
+    "other": 2,
+    "tier": "large"
+   },
+   {
+    "date": "2025-07-29",
+    "titles": [
+     "Forum: 07-29-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 152,
+    "fix": 2,
+    "new": 2,
+    "tune": 142,
+    "other": 6,
+    "tier": "large"
+   },
+   {
+    "date": "2025-08-18",
+    "titles": [
+     "Forum: 08-18-2025",
+     "Six New Heroes"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 16,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 16,
+    "tier": "release"
+   },
+   {
+    "date": "2025-08-20",
+    "titles": [
+     "Billy Comes in Swinging"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "release"
+   },
+   {
+    "date": "2025-08-22",
+    "titles": [
+     "The Doorman, at your Service"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 3,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 2,
+    "tier": "release"
+   },
+   {
+    "date": "2025-08-25",
+    "titles": [
+     "Paige Writes Her Own Story"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "release"
+   },
+   {
+    "date": "2025-08-27",
+    "titles": [
+     "Drifter Emerges from the Shadows"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 3,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 2,
+    "tier": "release"
+   },
+   {
+    "date": "2025-08-29",
+    "titles": [
+     "You Can't Kill Victor"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "release"
+   },
+   {
+    "date": "2025-09-04",
+    "titles": [
+     "Forum: 09-04-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 150,
+    "fix": 0,
+    "new": 0,
+    "tune": 149,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2025-10-02",
+    "titles": [
+     "Forum: 10-02-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 195,
+    "fix": 5,
+    "new": 2,
+    "tune": 179,
+    "other": 9,
+    "tier": "large"
+   },
+   {
+    "date": "2025-10-24",
+    "titles": [
+     "Forum: 10-24-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 55,
+    "fix": 0,
+    "new": 0,
+    "tune": 55,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-11-21",
+    "titles": [
+     "Forum: 11-21-2025",
+     "11-21-2025 Update"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 246,
+    "fix": 7,
+    "new": 2,
+    "tune": 232,
+    "other": 5,
+    "tier": "large"
+   },
+   {
+    "date": "2025-12-16",
+    "titles": [
+     "Forum: 12-16-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 76,
+    "fix": 3,
+    "new": 0,
+    "tune": 73,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-12-29",
+    "titles": [
+     "Forum: 12-29-2025"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 43,
+    "fix": 2,
+    "new": 0,
+    "tune": 41,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-01-22",
+    "titles": [
+     "Old Gods, New Blood"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "release"
+   },
+   {
+    "date": "2026-01-26",
+    "titles": [
+     "Rem Enters The City That Never Sleeps"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "release"
+   },
+   {
+    "date": "2026-01-29",
+    "titles": [
+     "Graves Prefers The Dead"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "release"
+   },
+   {
+    "date": "2026-01-30",
+    "titles": [
+     "Forum: 01-30-2026"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 163,
+    "fix": 4,
+    "new": 2,
+    "tune": 154,
+    "other": 3,
+    "tier": "large"
+   },
+   {
+    "date": "2026-02-02",
+    "titles": [
+     "The Curse Beckons for Silver"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "release"
+   },
+   {
+    "date": "2026-02-05",
+    "titles": [
+     "Some Are Merciful, The Venator Is Not"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 3,
+    "tier": "release"
+   },
+   {
+    "date": "2026-02-09",
+    "titles": [
+     "Introducing The Dazzling Celeste"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "tier": "release"
+   },
+   {
+    "date": "2026-02-12",
+    "titles": [
+     "Apollo - A Cut Above"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 4,
+    "fix": 0,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "release"
+   },
+   {
+    "date": "2026-03-06",
+    "titles": [
+     "Forum: 03-06-2026",
+     "Gameplay Update - 03-06-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1176,
+    "fix": 28,
+    "new": 4,
+    "tune": 1128,
+    "other": 16,
+    "tier": "large"
+   },
+   {
+    "date": "2026-03-21",
+    "titles": [
+     "Forum: 03-21-2026"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 198,
+    "fix": 7,
+    "new": 0,
+    "tune": 190,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2026-03-25",
+    "titles": [
+     "Forum: 03-25-2026"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 47,
+    "fix": 0,
+    "new": 0,
+    "tune": 47,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-04-10",
+    "titles": [
+     "Forum: 04-10-2026"
+    ],
+    "sources": [
+     "forum"
+    ],
+    "stub": false,
+    "entries": 115,
+    "fix": 6,
+    "new": 0,
+    "tune": 108,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2026-04-30",
+    "titles": [
+     "Forum: 04-30-2026",
+     "Gameplay Update - 04-30-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 161,
+    "fix": 12,
+    "new": 1,
+    "tune": 147,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2026-05-22",
+    "titles": [
+     "Forum: 05-22-2026",
+     "Gameplay Update - 05-22-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 307,
+    "fix": 21,
+    "new": 2,
+    "tune": 274,
+    "other": 10,
+    "tier": "large"
+   },
+   {
+    "date": "2026-05-25",
+    "titles": [
+     "Minor Update - 05-25-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 0,
+    "new": 0,
+    "tune": 10,
+    "other": 2,
+    "tier": "small"
+   },
+   {
+    "date": "2026-05-28",
+    "titles": [
+     "Minor Update - 05-28-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 1,
+    "new": 0,
+    "tune": 11,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2026-05-31",
+    "titles": [
+     "Minor Update - 05-31-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 21,
+    "fix": 0,
+    "new": 0,
+    "tune": 21,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2026-06-04",
+    "titles": [
+     "Minor Update - 06-04-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 1,
+    "new": 0,
+    "tune": 10,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2026-06-11",
+    "titles": [
+     "Minor Update - 06-11-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 82,
+    "fix": 8,
+    "new": 0,
+    "tune": 73,
+    "other": 1,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-06-30",
+    "titles": [
+     "Forum: 06-30-2026",
+     "Minor Update - 06-30-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 146,
+    "fix": 1,
+    "new": 0,
+    "tune": 137,
+    "other": 8,
+    "tier": "large"
+   },
+   {
+    "date": "2026-07-01",
+    "titles": [
+     "Minor Update - 07-01-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 0,
+    "tune": 4,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-09",
+    "titles": [
+     "Minor Update - 07-09-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 54,
+    "fix": 0,
+    "new": 0,
+    "tune": 54,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-07-28",
+    "titles": [
+     "Minor Update - 07-28-2026"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 100,
+    "fix": 2,
+    "new": 0,
+    "tune": 96,
+    "other": 2,
+    "tier": "large"
+   },
+   {
+    "date": "2026-07-30",
+    "titles": [
+     "Matchmaking Update"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 35,
+    "fix": 1,
+    "new": 0,
+    "tune": 14,
+    "other": 20,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-08-12",
+    "titles": [
+     "Forum: 08-12-2026",
+     "Minor Update - 08-12-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 31,
+    "fix": 1,
+    "new": 0,
+    "tune": 30,
+    "other": 0,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-08-22",
+    "titles": [
+     "Forum: 08-22-2026",
+     "Minor Update - 08-22-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 0,
+    "new": 0,
+    "tune": 12,
+    "other": 0,
+    "tier": "small"
+   },
+   {
+    "date": "2026-09-16",
+    "titles": [
+     "Forum: 09-16-2026",
+     "Minor Update - 09-16-2026"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 123,
+    "fix": 5,
+    "new": 0,
+    "tune": 117,
+    "other": 1,
+    "tier": "large"
+   },
+   {
+    "date": "2026-09-29",
+    "titles": [
+     "Forum: 09-29-2026",
+     "City Never Sleeps"
+    ],
+    "sources": [
+     "forum",
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 5,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 4,
+    "tier": "release"
+   },
+   {
+    "date": "2026-10-02",
+    "titles": [
+     "Listen up, Crumbums! Your King is here."
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": true,
+    "entries": 2,
+    "fix": 0,
+    "new": 0,
+    "tune": 1,
+    "other": 1,
+    "tier": "release"
+   }
+  ],
+  "tf2": [
+   {
+    "date": "2024-01-10",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 20,
+    "fix": 10,
+    "new": 0,
+    "tune": 2,
+    "other": 8,
+    "tier": "small"
+   },
+   {
+    "date": "2024-04-18",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 5,
+    "fix": 1,
+    "new": 1,
+    "tune": 2,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-19",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 2,
+    "fix": 2,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-04-22",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 7,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2024-07-18",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 142,
+    "fix": 35,
+    "new": 18,
+    "tune": 40,
+    "other": 49,
+    "tier": "large"
+   },
+   {
+    "date": "2024-07-19",
+    "titles": [
+     "Team Fortress 2 Update Released",
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 35,
+    "fix": 20,
+    "new": 1,
+    "tune": 4,
+    "other": 10,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-07-25",
+    "titles": [
+     "Team Fortress 2 Update Released",
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 56,
+    "fix": 21,
+    "new": 3,
+    "tune": 16,
+    "other": 16,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-08-02",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 34,
+    "fix": 14,
+    "new": 2,
+    "tune": 7,
+    "other": 11,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-08-14",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 26,
+    "fix": 12,
+    "new": 2,
+    "tune": 3,
+    "other": 9,
+    "tier": "small"
+   },
+   {
+    "date": "2024-08-15",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 18,
+    "fix": 10,
+    "new": 0,
+    "tune": 1,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-11",
+    "titles": [
+     "Team Fortress 2 Update Released",
+     "Scream Fortress XVI has arrived!"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 174,
+    "fix": 40,
+    "new": 20,
+    "tune": 45,
+    "other": 69,
+    "tier": "large"
+   },
+   {
+    "date": "2024-10-12",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 7,
+    "new": 0,
+    "tune": 1,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2024-10-18",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 104,
+    "fix": 46,
+    "new": 6,
+    "tune": 28,
+    "other": 24,
+    "tier": "large"
+   },
+   {
+    "date": "2024-10-24",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 36,
+    "fix": 16,
+    "new": 5,
+    "tune": 6,
+    "other": 9,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-10-25",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 37,
+    "fix": 12,
+    "new": 1,
+    "tune": 13,
+    "other": 11,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-11-05",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 6,
+    "new": 1,
+    "tune": 2,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2024-11-14",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 4,
+    "new": 1,
+    "tune": 5,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2024-12-11",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 103,
+    "fix": 30,
+    "new": 8,
+    "tune": 36,
+    "other": 29,
+    "tier": "large"
+   },
+   {
+    "date": "2024-12-17",
+    "titles": [
+     "Team Fortress 2 Update Released",
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 55,
+    "fix": 23,
+    "new": 5,
+    "tune": 7,
+    "other": 20,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-12-20",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 59,
+    "fix": 25,
+    "new": 3,
+    "tune": 16,
+    "other": 15,
+    "tier": "medium"
+   },
+   {
+    "date": "2024-12-24",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 5,
+    "new": 2,
+    "tune": 2,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2025-02-18",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 59,
+    "fix": 28,
+    "new": 10,
+    "tune": 8,
+    "other": 13,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-05-01",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 40,
+    "fix": 35,
+    "new": 2,
+    "tune": 1,
+    "other": 2,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-05-12",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 8,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-05-13",
+    "titles": [
+     "Team Fortress 2 Update Released",
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 2,
+    "new": 1,
+    "tune": 1,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-07-24",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 51,
+    "fix": 17,
+    "new": 3,
+    "tune": 15,
+    "other": 16,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-07-25",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 22,
+    "fix": 10,
+    "new": 1,
+    "tune": 2,
+    "other": 9,
+    "tier": "small"
+   },
+   {
+    "date": "2025-07-26",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 6,
+    "fix": 3,
+    "new": 0,
+    "tune": 1,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-07-30",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 66,
+    "fix": 12,
+    "new": 14,
+    "tune": 12,
+    "other": 28,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-08-01",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 18,
+    "fix": 6,
+    "new": 5,
+    "tune": 3,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2025-08-05",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 5,
+    "new": 1,
+    "tune": 0,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2025-08-14",
+    "titles": [
+     "Team Fortress 2 Update Released",
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 29,
+    "fix": 12,
+    "new": 2,
+    "tune": 5,
+    "other": 10,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-09",
+    "titles": [
+     "Scream Fortress XVII has arrived!"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 48,
+    "fix": 9,
+    "new": 8,
+    "tune": 12,
+    "other": 19,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-10-10",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 20,
+    "fix": 8,
+    "new": 1,
+    "tune": 4,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-13",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 38,
+    "fix": 15,
+    "new": 3,
+    "tune": 4,
+    "other": 16,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-10-14",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 10,
+    "fix": 2,
+    "new": 0,
+    "tune": 4,
+    "other": 4,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-15",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 3,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-10-23",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 39,
+    "fix": 23,
+    "new": 4,
+    "tune": 3,
+    "other": 9,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-10-27",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 13,
+    "fix": 12,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "small"
+   },
+   {
+    "date": "2025-10-30",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2025-12-09",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 76,
+    "fix": 49,
+    "new": 8,
+    "tune": 8,
+    "other": 11,
+    "tier": "medium"
+   },
+   {
+    "date": "2025-12-11",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 18,
+    "fix": 11,
+    "new": 0,
+    "tune": 1,
+    "other": 6,
+    "tier": "small"
+   },
+   {
+    "date": "2025-12-16",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 12,
+    "fix": 7,
+    "new": 1,
+    "tune": 1,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2025-12-23",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 16,
+    "fix": 7,
+    "new": 1,
+    "tune": 2,
+    "other": 6,
+    "tier": "small"
+   },
+   {
+    "date": "2026-03-06",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 64,
+    "fix": 39,
+    "new": 1,
+    "tune": 2,
+    "other": 22,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-03-11",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 9,
+    "fix": 8,
+    "new": 0,
+    "tune": 0,
+    "other": 1,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-05-22",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 66,
+    "fix": 17,
+    "new": 4,
+    "tune": 14,
+    "other": 31,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-05-25",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 1,
+    "fix": 1,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-07",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 46,
+    "fix": 19,
+    "new": 4,
+    "tune": 9,
+    "other": 14,
+    "tier": "medium"
+   },
+   {
+    "date": "2026-07-08",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 7,
+    "fix": 5,
+    "new": 0,
+    "tune": 0,
+    "other": 2,
+    "tier": "micro"
+   },
+   {
+    "date": "2026-07-10",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 21,
+    "fix": 8,
+    "new": 0,
+    "tune": 8,
+    "other": 5,
+    "tier": "small"
+   },
+   {
+    "date": "2026-07-14",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 23,
+    "fix": 7,
+    "new": 0,
+    "tune": 9,
+    "other": 7,
+    "tier": "small"
+   },
+   {
+    "date": "2026-07-16",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 11,
+    "fix": 6,
+    "new": 1,
+    "tune": 1,
+    "other": 3,
+    "tier": "small"
+   },
+   {
+    "date": "2026-10-01",
+    "titles": [
+     "Scream Fortress XVIII has arrived!"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 251,
+    "fix": 52,
+    "new": 25,
+    "tune": 55,
+    "other": 119,
+    "tier": "large"
+   },
+   {
+    "date": "2026-10-02",
+    "titles": [
+     "Team Fortress 2 Update Released"
+    ],
+    "sources": [
+     "steam-news"
+    ],
+    "stub": false,
+    "entries": 14,
+    "fix": 6,
+    "new": 1,
+    "tune": 2,
+    "other": 5,
+    "tier": "small"
+   }
+  ]
+ },
+ "monthly": {
+  "cs2": {
+   "2024-01": {
+    "updates": 2,
+    "entries": 9,
+    "fix": 8,
+    "new": 0,
+    "tune": 1,
+    "other": 0,
+    "micro": 2,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-02": {
+    "updates": 7,
+    "entries": 168,
+    "fix": 76,
+    "new": 23,
+    "tune": 49,
+    "other": 20,
+    "micro": 1,
+    "small": 4,
+    "medium": 2,
+    "large": 0,
+    "release": 0
+   },
+   "2024-03": {
+    "updates": 2,
+    "entries": 11,
+    "fix": 1,
+    "new": 4,
+    "tune": 5,
+    "other": 1,
+    "micro": 2,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-04": {
+    "updates": 5,
+    "entries": 60,
+    "fix": 14,
+    "new": 16,
+    "tune": 13,
+    "other": 17,
+    "micro": 4,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2024-05": {
+    "updates": 8,
+    "entries": 61,
+    "fix": 23,
+    "new": 4,
+    "tune": 18,
+    "other": 16,
+    "micro": 7,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2024-06": {
+    "updates": 8,
+    "entries": 52,
+    "fix": 18,
+    "new": 15,
+    "tune": 8,
+    "other": 11,
+    "micro": 7,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-07": {
+    "updates": 3,
+    "entries": 14,
+    "fix": 5,
+    "new": 2,
+    "tune": 3,
+    "other": 4,
+    "micro": 3,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-08": {
+    "updates": 6,
+    "entries": 53,
+    "fix": 18,
+    "new": 2,
+    "tune": 17,
+    "other": 16,
+    "micro": 4,
+    "small": 2,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-09": {
+    "updates": 3,
+    "entries": 7,
+    "fix": 4,
+    "new": 2,
+    "tune": 1,
+    "other": 0,
+    "micro": 3,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-10": {
+    "updates": 11,
+    "entries": 126,
+    "fix": 55,
+    "new": 15,
+    "tune": 31,
+    "other": 25,
+    "micro": 9,
+    "small": 1,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2024-11": {
+    "updates": 7,
+    "entries": 125,
+    "fix": 45,
+    "new": 22,
+    "tune": 25,
+    "other": 33,
+    "micro": 2,
+    "small": 4,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2024-12": {
+    "updates": 2,
+    "entries": 46,
+    "fix": 11,
+    "new": 6,
+    "tune": 16,
+    "other": 13,
+    "micro": 0,
+    "small": 1,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-01": {
+    "updates": 7,
+    "entries": 54,
+    "fix": 17,
+    "new": 7,
+    "tune": 15,
+    "other": 15,
+    "micro": 5,
+    "small": 2,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-02": {
+    "updates": 4,
+    "entries": 22,
+    "fix": 15,
+    "new": 1,
+    "tune": 4,
+    "other": 2,
+    "micro": 4,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-03": {
+    "updates": 2,
+    "entries": 25,
+    "fix": 3,
+    "new": 2,
+    "tune": 6,
+    "other": 14,
+    "micro": 1,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-04": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-05": {
+    "updates": 7,
+    "entries": 39,
+    "fix": 13,
+    "new": 5,
+    "tune": 9,
+    "other": 12,
+    "micro": 6,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-06": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-07": {
+    "updates": 6,
+    "entries": 65,
+    "fix": 18,
+    "new": 7,
+    "tune": 20,
+    "other": 20,
+    "micro": 4,
+    "small": 1,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-08": {
+    "updates": 5,
+    "entries": 55,
+    "fix": 22,
+    "new": 4,
+    "tune": 15,
+    "other": 14,
+    "micro": 2,
+    "small": 3,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-09": {
+    "updates": 10,
+    "entries": 80,
+    "fix": 23,
+    "new": 31,
+    "tune": 13,
+    "other": 13,
+    "micro": 8,
+    "small": 1,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-10": {
+    "updates": 9,
+    "entries": 161,
+    "fix": 20,
+    "new": 50,
+    "tune": 42,
+    "other": 49,
+    "micro": 3,
+    "small": 5,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-11": {
+    "updates": 4,
+    "entries": 33,
+    "fix": 16,
+    "new": 3,
+    "tune": 8,
+    "other": 6,
+    "micro": 2,
+    "small": 2,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-12": {
+    "updates": 2,
+    "entries": 5,
+    "fix": 1,
+    "new": 1,
+    "tune": 3,
+    "other": 0,
+    "micro": 2,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-01": {
+    "updates": 4,
+    "entries": 78,
+    "fix": 11,
+    "new": 10,
+    "tune": 27,
+    "other": 30,
+    "micro": 3,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-02": {
+    "updates": 4,
+    "entries": 28,
+    "fix": 6,
+    "new": 9,
+    "tune": 5,
+    "other": 8,
+    "micro": 3,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-03": {
+    "updates": 4,
+    "entries": 37,
+    "fix": 6,
+    "new": 11,
+    "tune": 8,
+    "other": 12,
+    "micro": 3,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-04": {
+    "updates": 11,
+    "entries": 116,
+    "fix": 44,
+    "new": 6,
+    "tune": 31,
+    "other": 35,
+    "micro": 6,
+    "small": 5,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-05": {
+    "updates": 6,
+    "entries": 65,
+    "fix": 21,
+    "new": 17,
+    "tune": 17,
+    "other": 10,
+    "micro": 4,
+    "small": 2,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-06": {
+    "updates": 1,
+    "entries": 5,
+    "fix": 1,
+    "new": 4,
+    "tune": 0,
+    "other": 0,
+    "micro": 1,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-07": {
+    "updates": 6,
+    "entries": 60,
+    "fix": 12,
+    "new": 14,
+    "tune": 16,
+    "other": 18,
+    "micro": 5,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-08": {
+    "updates": 4,
+    "entries": 77,
+    "fix": 6,
+    "new": 52,
+    "tune": 2,
+    "other": 17,
+    "micro": 2,
+    "small": 0,
+    "medium": 2,
+    "large": 0,
+    "release": 0
+   },
+   "2026-09": {
+    "updates": 7,
+    "entries": 88,
+    "fix": 19,
+    "new": 22,
+    "tune": 28,
+    "other": 19,
+    "micro": 4,
+    "small": 2,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-10": {
+    "updates": 1,
+    "entries": 6,
+    "fix": 2,
+    "new": 0,
+    "tune": 2,
+    "other": 2,
+    "micro": 1,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   }
+  },
+  "dota2": {
+   "2024-01": {
+    "updates": 1,
+    "entries": 10,
+    "fix": 9,
+    "new": 1,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-02": {
+    "updates": 1,
+    "entries": 145,
+    "fix": 1,
+    "new": 0,
+    "tune": 144,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2024-03": {
+    "updates": 2,
+    "entries": 115,
+    "fix": 1,
+    "new": 0,
+    "tune": 113,
+    "other": 1,
+    "micro": 1,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2024-04": {
+    "updates": 1,
+    "entries": 14,
+    "fix": 14,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-05": {
+    "updates": 2,
+    "entries": 1844,
+    "fix": 91,
+    "new": 99,
+    "tune": 1517,
+    "other": 137,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2024-06": {
+    "updates": 2,
+    "entries": 526,
+    "fix": 70,
+    "new": 0,
+    "tune": 424,
+    "other": 32,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2024-07": {
+    "updates": 1,
+    "entries": 673,
+    "fix": 1,
+    "new": 13,
+    "tune": 514,
+    "other": 145,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2024-08": {
+    "updates": 2,
+    "entries": 245,
+    "fix": 24,
+    "new": 0,
+    "tune": 221,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2024-09": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-10": {
+    "updates": 1,
+    "entries": 148,
+    "fix": 0,
+    "new": 0,
+    "tune": 148,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2024-11": {
+    "updates": 3,
+    "entries": 148,
+    "fix": 28,
+    "new": 0,
+    "tune": 120,
+    "other": 0,
+    "micro": 1,
+    "small": 0,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2024-12": {
+    "updates": 2,
+    "entries": 35,
+    "fix": 21,
+    "new": 2,
+    "tune": 11,
+    "other": 1,
+    "micro": 0,
+    "small": 2,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-01": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-02": {
+    "updates": 2,
+    "entries": 1668,
+    "fix": 50,
+    "new": 35,
+    "tune": 1418,
+    "other": 165,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2025-03": {
+    "updates": 3,
+    "entries": 386,
+    "fix": 56,
+    "new": 1,
+    "tune": 303,
+    "other": 26,
+    "micro": 1,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2025-04": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-05": {
+    "updates": 2,
+    "entries": 864,
+    "fix": 63,
+    "new": 12,
+    "tune": 715,
+    "other": 74,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2025-06": {
+    "updates": 1,
+    "entries": 117,
+    "fix": 15,
+    "new": 1,
+    "tune": 99,
+    "other": 2,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2025-07": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-08": {
+    "updates": 4,
+    "entries": 161,
+    "fix": 56,
+    "new": 0,
+    "tune": 104,
+    "other": 1,
+    "micro": 1,
+    "small": 1,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2025-09": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-10": {
+    "updates": 2,
+    "entries": 115,
+    "fix": 12,
+    "new": 1,
+    "tune": 96,
+    "other": 6,
+    "micro": 0,
+    "small": 1,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-11": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-12": {
+    "updates": 2,
+    "entries": 1226,
+    "fix": 37,
+    "new": 10,
+    "tune": 1068,
+    "other": 111,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2026-01": {
+    "updates": 2,
+    "entries": 122,
+    "fix": 26,
+    "new": 1,
+    "tune": 95,
+    "other": 0,
+    "micro": 0,
+    "small": 1,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2026-02": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-03": {
+    "updates": 3,
+    "entries": 1832,
+    "fix": 84,
+    "new": 48,
+    "tune": 1484,
+    "other": 216,
+    "micro": 0,
+    "small": 1,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2026-04": {
+    "updates": 1,
+    "entries": 181,
+    "fix": 2,
+    "new": 0,
+    "tune": 176,
+    "other": 3,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2026-05": {
+    "updates": 1,
+    "entries": 261,
+    "fix": 60,
+    "new": 1,
+    "tune": 196,
+    "other": 4,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2026-06": {
+    "updates": 1,
+    "entries": 219,
+    "fix": 16,
+    "new": 0,
+    "tune": 203,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2026-07": {
+    "updates": 2,
+    "entries": 226,
+    "fix": 67,
+    "new": 0,
+    "tune": 157,
+    "other": 2,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2026-08": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-09": {
+    "updates": 1,
+    "entries": 111,
+    "fix": 11,
+    "new": 0,
+    "tune": 100,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2026-10": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   }
+  },
+  "deadlock": {
+   "2024-01": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-02": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-03": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-04": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-05": {
+    "updates": 8,
+    "entries": 629,
+    "fix": 76,
+    "new": 39,
+    "tune": 479,
+    "other": 35,
+    "micro": 3,
+    "small": 0,
+    "medium": 1,
+    "large": 4,
+    "release": 0
+   },
+   "2024-06": {
+    "updates": 9,
+    "entries": 621,
+    "fix": 56,
+    "new": 46,
+    "tune": 465,
+    "other": 54,
+    "micro": 5,
+    "small": 0,
+    "medium": 0,
+    "large": 4,
+    "release": 0
+   },
+   "2024-07": {
+    "updates": 4,
+    "entries": 581,
+    "fix": 44,
+    "new": 40,
+    "tune": 455,
+    "other": 42,
+    "micro": 1,
+    "small": 0,
+    "medium": 0,
+    "large": 3,
+    "release": 0
+   },
+   "2024-08": {
+    "updates": 8,
+    "entries": 886,
+    "fix": 108,
+    "new": 72,
+    "tune": 610,
+    "other": 96,
+    "micro": 2,
+    "small": 3,
+    "medium": 0,
+    "large": 3,
+    "release": 0
+   },
+   "2024-09": {
+    "updates": 8,
+    "entries": 600,
+    "fix": 79,
+    "new": 50,
+    "tune": 404,
+    "other": 67,
+    "micro": 5,
+    "small": 1,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2024-10": {
+    "updates": 9,
+    "entries": 680,
+    "fix": 60,
+    "new": 58,
+    "tune": 498,
+    "other": 64,
+    "micro": 3,
+    "small": 4,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2024-11": {
+    "updates": 6,
+    "entries": 615,
+    "fix": 50,
+    "new": 47,
+    "tune": 462,
+    "other": 56,
+    "micro": 3,
+    "small": 1,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2024-12": {
+    "updates": 4,
+    "entries": 319,
+    "fix": 34,
+    "new": 16,
+    "tune": 252,
+    "other": 17,
+    "micro": 1,
+    "small": 2,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2025-01": {
+    "updates": 4,
+    "entries": 134,
+    "fix": 9,
+    "new": 0,
+    "tune": 118,
+    "other": 7,
+    "micro": 0,
+    "small": 1,
+    "medium": 2,
+    "large": 0,
+    "release": 1
+   },
+   "2025-02": {
+    "updates": 2,
+    "entries": 23,
+    "fix": 1,
+    "new": 0,
+    "tune": 22,
+    "other": 0,
+    "micro": 1,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-03": {
+    "updates": 3,
+    "entries": 30,
+    "fix": 1,
+    "new": 0,
+    "tune": 27,
+    "other": 2,
+    "micro": 2,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-04": {
+    "updates": 2,
+    "entries": 146,
+    "fix": 19,
+    "new": 1,
+    "tune": 121,
+    "other": 5,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2025-05": {
+    "updates": 5,
+    "entries": 835,
+    "fix": 100,
+    "new": 74,
+    "tune": 469,
+    "other": 192,
+    "micro": 0,
+    "small": 0,
+    "medium": 3,
+    "large": 2,
+    "release": 0
+   },
+   "2025-06": {
+    "updates": 1,
+    "entries": 72,
+    "fix": 2,
+    "new": 3,
+    "tune": 57,
+    "other": 10,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-07": {
+    "updates": 2,
+    "entries": 288,
+    "fix": 16,
+    "new": 3,
+    "tune": 261,
+    "other": 8,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2025-08": {
+    "updates": 6,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 6
+   },
+   "2025-09": {
+    "updates": 1,
+    "entries": 150,
+    "fix": 0,
+    "new": 0,
+    "tune": 149,
+    "other": 1,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2025-10": {
+    "updates": 2,
+    "entries": 250,
+    "fix": 5,
+    "new": 2,
+    "tune": 234,
+    "other": 9,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2025-11": {
+    "updates": 1,
+    "entries": 246,
+    "fix": 7,
+    "new": 2,
+    "tune": 232,
+    "other": 5,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2025-12": {
+    "updates": 2,
+    "entries": 119,
+    "fix": 5,
+    "new": 0,
+    "tune": 114,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 2,
+    "large": 0,
+    "release": 0
+   },
+   "2026-01": {
+    "updates": 4,
+    "entries": 163,
+    "fix": 4,
+    "new": 2,
+    "tune": 154,
+    "other": 3,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 3
+   },
+   "2026-02": {
+    "updates": 4,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 4
+   },
+   "2026-03": {
+    "updates": 3,
+    "entries": 1421,
+    "fix": 35,
+    "new": 4,
+    "tune": 1365,
+    "other": 17,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 2,
+    "release": 0
+   },
+   "2026-04": {
+    "updates": 2,
+    "entries": 276,
+    "fix": 18,
+    "new": 1,
+    "tune": 255,
+    "other": 2,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 2,
+    "release": 0
+   },
+   "2026-05": {
+    "updates": 4,
+    "entries": 352,
+    "fix": 22,
+    "new": 2,
+    "tune": 316,
+    "other": 12,
+    "micro": 0,
+    "small": 3,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   },
+   "2026-06": {
+    "updates": 3,
+    "entries": 242,
+    "fix": 10,
+    "new": 0,
+    "tune": 220,
+    "other": 12,
+    "micro": 0,
+    "small": 1,
+    "medium": 1,
+    "large": 1,
+    "release": 0
+   },
+   "2026-07": {
+    "updates": 4,
+    "entries": 194,
+    "fix": 4,
+    "new": 0,
+    "tune": 168,
+    "other": 22,
+    "micro": 1,
+    "small": 0,
+    "medium": 2,
+    "large": 1,
+    "release": 0
+   },
+   "2026-08": {
+    "updates": 2,
+    "entries": 43,
+    "fix": 1,
+    "new": 0,
+    "tune": 42,
+    "other": 0,
+    "micro": 0,
+    "small": 1,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-09": {
+    "updates": 2,
+    "entries": 123,
+    "fix": 5,
+    "new": 0,
+    "tune": 117,
+    "other": 1,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 1,
+    "release": 1
+   },
+   "2026-10": {
+    "updates": 1,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 1
+   }
+  },
+  "tf2": {
+   "2024-01": {
+    "updates": 1,
+    "entries": 20,
+    "fix": 10,
+    "new": 0,
+    "tune": 2,
+    "other": 8,
+    "micro": 0,
+    "small": 1,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-02": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-03": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-04": {
+    "updates": 3,
+    "entries": 14,
+    "fix": 10,
+    "new": 1,
+    "tune": 2,
+    "other": 1,
+    "micro": 3,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-05": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-06": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-07": {
+    "updates": 3,
+    "entries": 233,
+    "fix": 76,
+    "new": 22,
+    "tune": 60,
+    "other": 75,
+    "micro": 0,
+    "small": 0,
+    "medium": 2,
+    "large": 1,
+    "release": 0
+   },
+   "2024-08": {
+    "updates": 3,
+    "entries": 78,
+    "fix": 36,
+    "new": 4,
+    "tune": 11,
+    "other": 27,
+    "micro": 0,
+    "small": 2,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2024-09": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-10": {
+    "updates": 5,
+    "entries": 363,
+    "fix": 121,
+    "new": 32,
+    "tune": 93,
+    "other": 117,
+    "micro": 0,
+    "small": 1,
+    "medium": 2,
+    "large": 2,
+    "release": 0
+   },
+   "2024-11": {
+    "updates": 2,
+    "entries": 23,
+    "fix": 10,
+    "new": 2,
+    "tune": 7,
+    "other": 4,
+    "micro": 0,
+    "small": 2,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2024-12": {
+    "updates": 4,
+    "entries": 231,
+    "fix": 83,
+    "new": 18,
+    "tune": 61,
+    "other": 69,
+    "micro": 0,
+    "small": 1,
+    "medium": 2,
+    "large": 1,
+    "release": 0
+   },
+   "2025-01": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-02": {
+    "updates": 1,
+    "entries": 59,
+    "fix": 28,
+    "new": 10,
+    "tune": 8,
+    "other": 13,
+    "micro": 0,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-03": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-04": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-05": {
+    "updates": 3,
+    "entries": 55,
+    "fix": 45,
+    "new": 3,
+    "tune": 2,
+    "other": 5,
+    "micro": 2,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2025-06": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-07": {
+    "updates": 4,
+    "entries": 145,
+    "fix": 42,
+    "new": 18,
+    "tune": 30,
+    "other": 55,
+    "micro": 1,
+    "small": 1,
+    "medium": 2,
+    "large": 0,
+    "release": 0
+   },
+   "2025-08": {
+    "updates": 3,
+    "entries": 58,
+    "fix": 23,
+    "new": 8,
+    "tune": 8,
+    "other": 19,
+    "micro": 0,
+    "small": 3,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-09": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-10": {
+    "updates": 8,
+    "entries": 172,
+    "fix": 70,
+    "new": 16,
+    "tune": 27,
+    "other": 59,
+    "micro": 2,
+    "small": 3,
+    "medium": 3,
+    "large": 0,
+    "release": 0
+   },
+   "2025-11": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2025-12": {
+    "updates": 4,
+    "entries": 122,
+    "fix": 74,
+    "new": 10,
+    "tune": 12,
+    "other": 26,
+    "micro": 0,
+    "small": 3,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-01": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-02": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-03": {
+    "updates": 2,
+    "entries": 73,
+    "fix": 47,
+    "new": 1,
+    "tune": 2,
+    "other": 23,
+    "micro": 1,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-04": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-05": {
+    "updates": 2,
+    "entries": 67,
+    "fix": 18,
+    "new": 4,
+    "tune": 14,
+    "other": 31,
+    "micro": 1,
+    "small": 0,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-06": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-07": {
+    "updates": 5,
+    "entries": 108,
+    "fix": 45,
+    "new": 5,
+    "tune": 27,
+    "other": 31,
+    "micro": 1,
+    "small": 3,
+    "medium": 1,
+    "large": 0,
+    "release": 0
+   },
+   "2026-08": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-09": {
+    "updates": 0,
+    "entries": 0,
+    "fix": 0,
+    "new": 0,
+    "tune": 0,
+    "other": 0,
+    "micro": 0,
+    "small": 0,
+    "medium": 0,
+    "large": 0,
+    "release": 0
+   },
+   "2026-10": {
+    "updates": 2,
+    "entries": 265,
+    "fix": 58,
+    "new": 26,
+    "tune": 57,
+    "other": 124,
+    "micro": 0,
+    "small": 1,
+    "medium": 0,
+    "large": 1,
+    "release": 0
+   }
+  }
+ },
+ "gametracking": {
+  "cs2": {
+   "commits": {
+    "2024-01": 4,
+    "2024-02": 12,
+    "2024-03": 10,
+    "2024-04": 9,
+    "2024-05": 14,
+    "2024-06": 12,
+    "2024-07": 6,
+    "2024-08": 8,
+    "2024-09": 3,
+    "2024-10": 19,
+    "2024-11": 12,
+    "2024-12": 4,
+    "2025-01": 8,
+    "2025-02": 5,
+    "2025-03": 7,
+    "2025-04": 3,
+    "2025-05": 14,
+    "2025-06": 3,
+    "2025-07": 12,
+    "2025-08": 10,
+    "2025-09": 18,
+    "2025-10": 16,
+    "2025-11": 9,
+    "2025-12": 6,
+    "2026-01": 11,
+    "2026-02": 5,
+    "2026-03": 18,
+    "2026-04": 12,
+    "2026-05": 11,
+    "2026-06": 5,
+    "2026-07": 16,
+    "2026-08": 9,
+    "2026-09": 15,
+    "2026-10": 1
+   },
+   "days": {
+    "2024-01": 3,
+    "2024-02": 8,
+    "2024-03": 9,
+    "2024-04": 7,
+    "2024-05": 9,
+    "2024-06": 9,
+    "2024-07": 5,
+    "2024-08": 7,
+    "2024-09": 3,
+    "2024-10": 16,
+    "2024-11": 9,
+    "2024-12": 3,
+    "2025-01": 7,
+    "2025-02": 5,
+    "2025-03": 6,
+    "2025-04": 3,
+    "2025-05": 11,
+    "2025-06": 3,
+    "2025-07": 9,
+    "2025-08": 7,
+    "2025-09": 13,
+    "2025-10": 12,
+    "2025-11": 7,
+    "2025-12": 4,
+    "2026-01": 8,
+    "2026-02": 5,
+    "2026-03": 13,
+    "2026-04": 8,
+    "2026-05": 9,
+    "2026-06": 4,
+    "2026-07": 10,
+    "2026-08": 8,
+    "2026-09": 7,
+    "2026-10": 1
+   },
+   "first": "2024-01-04"
+  },
+  "dota2": {
+   "commits": {
+    "2024-01": 12,
+    "2024-02": 17,
+    "2024-03": 18,
+    "2024-04": 14,
+    "2024-05": 30,
+    "2024-06": 24,
+    "2024-07": 20,
+    "2024-08": 36,
+    "2024-09": 23,
+    "2024-10": 15,
+    "2024-11": 29,
+    "2024-12": 13,
+    "2025-01": 16,
+    "2025-02": 25,
+    "2025-03": 34,
+    "2025-04": 17,
+    "2025-05": 42,
+    "2025-06": 33,
+    "2025-07": 9,
+    "2025-08": 28,
+    "2025-09": 34,
+    "2025-10": 13,
+    "2025-11": 22,
+    "2025-12": 30,
+    "2026-01": 19,
+    "2026-02": 23,
+    "2026-03": 28,
+    "2026-04": 22,
+    "2026-05": 16,
+    "2026-06": 39,
+    "2026-07": 28,
+    "2026-08": 33,
+    "2026-09": 24,
+    "2026-10": 1
+   },
+   "days": {
+    "2024-01": 11,
+    "2024-02": 13,
+    "2024-03": 12,
+    "2024-04": 11,
+    "2024-05": 17,
+    "2024-06": 16,
+    "2024-07": 15,
+    "2024-08": 17,
+    "2024-09": 16,
+    "2024-10": 11,
+    "2024-11": 16,
+    "2024-12": 10,
+    "2025-01": 13,
+    "2025-02": 13,
+    "2025-03": 21,
+    "2025-04": 12,
+    "2025-05": 19,
+    "2025-06": 19,
+    "2025-07": 8,
+    "2025-08": 20,
+    "2025-09": 19,
+    "2025-10": 10,
+    "2025-11": 11,
+    "2025-12": 17,
+    "2026-01": 13,
+    "2026-02": 17,
+    "2026-03": 16,
+    "2026-04": 14,
+    "2026-05": 15,
+    "2026-06": 19,
+    "2026-07": 17,
+    "2026-08": 23,
+    "2026-09": 14,
+    "2026-10": 1
+   },
+   "first": "2024-01-02"
+  },
+  "deadlock": {
+   "commits": {
+    "2024-01": 0,
+    "2024-02": 0,
+    "2024-03": 0,
+    "2024-04": 0,
+    "2024-05": 0,
+    "2024-06": 0,
+    "2024-07": 0,
+    "2024-08": 41,
+    "2024-09": 60,
+    "2024-10": 58,
+    "2024-11": 59,
+    "2024-12": 21,
+    "2025-01": 21,
+    "2025-02": 11,
+    "2025-03": 13,
+    "2025-04": 14,
+    "2025-05": 52,
+    "2025-06": 15,
+    "2025-07": 20,
+    "2025-08": 57,
+    "2025-09": 12,
+    "2025-10": 34,
+    "2025-11": 30,
+    "2025-12": 34,
+    "2026-01": 63,
+    "2026-02": 58,
+    "2026-03": 38,
+    "2026-04": 16,
+    "2026-05": 27,
+    "2026-06": 24,
+    "2026-07": 29,
+    "2026-08": 14,
+    "2026-09": 16,
+    "2026-10": 8
+   },
+   "days": {
+    "2024-01": 0,
+    "2024-02": 0,
+    "2024-03": 0,
+    "2024-04": 0,
+    "2024-05": 0,
+    "2024-06": 0,
+    "2024-07": 0,
+    "2024-08": 14,
+    "2024-09": 26,
+    "2024-10": 23,
+    "2024-11": 24,
+    "2024-12": 10,
+    "2025-01": 9,
+    "2025-02": 6,
+    "2025-03": 10,
+    "2025-04": 8,
+    "2025-05": 20,
+    "2025-06": 10,
+    "2025-07": 10,
+    "2025-08": 16,
+    "2025-09": 10,
+    "2025-10": 18,
+    "2025-11": 12,
+    "2025-12": 12,
+    "2026-01": 21,
+    "2026-02": 25,
+    "2026-03": 19,
+    "2026-04": 10,
+    "2026-05": 15,
+    "2026-06": 15,
+    "2026-07": 17,
+    "2026-08": 12,
+    "2026-09": 10,
+    "2026-10": 3
+   },
+   "first": "2024-08-10"
+  },
+  "tf2": {
+   "commits": {
+    "2024-01": 1,
+    "2024-02": 0,
+    "2024-03": 0,
+    "2024-04": 3,
+    "2024-05": 0,
+    "2024-06": 0,
+    "2024-07": 5,
+    "2024-08": 3,
+    "2024-09": 0,
+    "2024-10": 6,
+    "2024-11": 2,
+    "2024-12": 5,
+    "2025-01": 0,
+    "2025-02": 1,
+    "2025-03": 0,
+    "2025-04": 0,
+    "2025-05": 4,
+    "2025-06": 0,
+    "2025-07": 4,
+    "2025-08": 4,
+    "2025-09": 0,
+    "2025-10": 8,
+    "2025-11": 0,
+    "2025-12": 4,
+    "2026-01": 0,
+    "2026-02": 0,
+    "2026-03": 3,
+    "2026-04": 0,
+    "2026-05": 2,
+    "2026-06": 0,
+    "2026-07": 5,
+    "2026-08": 0,
+    "2026-09": 0,
+    "2026-10": 2
+   },
+   "days": {
+    "2024-01": 1,
+    "2024-02": 0,
+    "2024-03": 0,
+    "2024-04": 3,
+    "2024-05": 0,
+    "2024-06": 0,
+    "2024-07": 3,
+    "2024-08": 3,
+    "2024-09": 0,
+    "2024-10": 5,
+    "2024-11": 2,
+    "2024-12": 4,
+    "2025-01": 0,
+    "2025-02": 1,
+    "2025-03": 0,
+    "2025-04": 0,
+    "2025-05": 3,
+    "2025-06": 0,
+    "2025-07": 4,
+    "2025-08": 3,
+    "2025-09": 0,
+    "2025-10": 8,
+    "2025-11": 0,
+    "2025-12": 4,
+    "2026-01": 0,
+    "2026-02": 0,
+    "2026-03": 3,
+    "2026-04": 0,
+    "2026-05": 2,
+    "2026-06": 0,
+    "2026-07": 5,
+    "2026-08": 0,
+    "2026-09": 0,
+    "2026-10": 2
+   },
+   "first": "2024-01-10"
+  }
+ },
+ "ccu_monthly": {
+  "cs2": {
+   "2024-01": {
+    "avg": 760859,
+    "peak": 1277907
+   },
+   "2024-02": {
+    "avg": 786631,
+    "peak": 1347519
+   },
+   "2024-03": {
+    "avg": 885630,
+    "peak": 1521796
+   },
+   "2024-04": {
+    "avg": 930749,
+    "peak": 1618685
+   },
+   "2024-05": {
+    "avg": 958207,
+    "peak": 1614925
+   },
+   "2024-06": {
+    "avg": 947521,
+    "peak": 1510840
+   },
+   "2024-07": {
+    "avg": 875365,
+    "peak": 1342171
+   },
+   "2024-08": {
+    "avg": 897338,
+    "peak": 1425958
+   },
+   "2024-09": {
+    "avg": 836307,
+    "peak": 1473144
+   },
+   "2024-10": {
+    "avg": 829439,
+    "peak": 1484045
+   },
+   "2024-11": {
+    "avg": 852164,
+    "peak": 1556938
+   },
+   "2024-12": {
+    "avg": 913953,
+    "peak": 1740261
+   },
+   "2025-01": {
+    "avg": 914092,
+    "peak": 1594016
+   },
+   "2025-02": {
+    "avg": 1003571,
+    "peak": 1783434
+   },
+   "2025-03": {
+    "avg": 1039663,
+    "peak": 1818368
+   },
+   "2025-04": {
+    "avg": 1045702,
+    "peak": 1811827
+   },
+   "2025-05": {
+    "avg": 1038597,
+    "peak": 1712216
+   },
+   "2025-06": {
+    "avg": 1010124,
+    "peak": 1725815
+   },
+   "2025-07": {
+    "avg": 920070,
+    "peak": 1427300
+   },
+   "2025-08": {
+    "avg": 928429,
+    "peak": 1502245
+   },
+   "2025-09": {
+    "avg": 925940,
+    "peak": 1571060
+   },
+   "2025-10": {
+    "avg": 948244,
+    "peak": 1588091
+   },
+   "2025-11": {
+    "avg": 981482,
+    "peak": 1597285
+   },
+   "2025-12": {
+    "avg": 991177,
+    "peak": 1620137
+   },
+   "2026-01": {
+    "avg": 1070444,
+    "peak": 1654355
+   },
+   "2026-02": {
+    "avg": 1084095,
+    "peak": 1627561
+   },
+   "2026-03": {
+    "avg": 1069173,
+    "peak": 1717624
+   },
+   "2026-04": {
+    "avg": 974786,
+    "peak": 1564830
+   },
+   "2026-05": {
+    "avg": 932721,
+    "peak": 1489217
+   },
+   "2026-06": {
+    "avg": 916655,
+    "peak": 1573727
+   },
+   "2026-07": {
+    "avg": 853232,
+    "peak": 1420896
+   },
+   "2026-08": {
+    "avg": 825258,
+    "peak": 1331274
+   },
+   "2026-09": {
+    "avg": 805638,
+    "peak": 1450705
+   }
+  },
+  "dota2": {
+   "2024-01": {
+    "avg": 440229,
+    "peak": 736488
+   },
+   "2024-02": {
+    "avg": 427922,
+    "peak": 741290
+   },
+   "2024-03": {
+    "avg": 428919,
+    "peak": 729865
+   },
+   "2024-04": {
+    "avg": 456551,
+    "peak": 921133
+   },
+   "2024-05": {
+    "avg": 512919,
+    "peak": 943059
+   },
+   "2024-06": {
+    "avg": 486674,
+    "peak": 869492
+   },
+   "2024-07": {
+    "avg": 475394,
+    "peak": 801126
+   },
+   "2024-08": {
+    "avg": 449798,
+    "peak": 734381
+   },
+   "2024-09": {
+    "avg": 426812,
+    "peak": 726385
+   },
+   "2024-10": {
+    "avg": 410682,
+    "peak": 706726
+   },
+   "2024-11": {
+    "avg": 454956,
+    "peak": 797599
+   },
+   "2024-12": {
+    "avg": 437636,
+    "peak": 744163
+   },
+   "2025-01": {
+    "avg": 446491,
+    "peak": 719825
+   },
+   "2025-02": {
+    "avg": 431749,
+    "peak": 708043
+   },
+   "2025-03": {
+    "avg": 402851,
+    "peak": 656279
+   },
+   "2025-04": {
+    "avg": 393173,
+    "peak": 630716
+   },
+   "2025-05": {
+    "avg": 408988,
+    "peak": 657074
+   },
+   "2025-06": {
+    "avg": 411123,
+    "peak": 650259
+   },
+   "2025-07": {
+    "avg": 426673,
+    "peak": 657349
+   },
+   "2025-08": {
+    "avg": 532355,
+    "peak": 818732
+   },
+   "2025-09": {
+    "avg": 580821,
+    "peak": 953869
+   },
+   "2025-10": {
+    "avg": 538998,
+    "peak": 858940
+   },
+   "2025-11": {
+    "avg": 583744,
+    "peak": 903303
+   },
+   "2025-12": {
+    "avg": 594290,
+    "peak": 903542
+   },
+   "2026-01": {
+    "avg": 569324,
+    "peak": 855690
+   },
+   "2026-02": {
+    "avg": 597010,
+    "peak": 869734
+   },
+   "2026-03": {
+    "avg": 477856,
+    "peak": 859016
+   },
+   "2026-04": {
+    "avg": 425919,
+    "peak": 695006
+   },
+   "2026-05": {
+    "avg": 422693,
+    "peak": 664213
+   },
+   "2026-06": {
+    "avg": 466002,
+    "peak": 862639
+   },
+   "2026-07": {
+    "avg": 545528,
+    "peak": 860019
+   },
+   "2026-08": {
+    "avg": 617078,
+    "peak": 981123
+   },
+   "2026-09": {
+    "avg": 571294,
+    "peak": 919002
+   }
+  },
+  "tf2": {
+   "2024-01": {
+    "avg": 94137,
+    "peak": 179882
+   },
+   "2024-02": {
+    "avg": 70143,
+    "peak": 98588
+   },
+   "2024-03": {
+    "avg": 59993,
+    "peak": 77754
+   },
+   "2024-04": {
+    "avg": 64921,
+    "peak": 83577
+   },
+   "2024-05": {
+    "avg": 72179,
+    "peak": 99995
+   },
+   "2024-06": {
+    "avg": 78099,
+    "peak": 148457
+   },
+   "2024-07": {
+    "avg": 97583,
+    "peak": 159941
+   },
+   "2024-08": {
+    "avg": 63648,
+    "peak": 97050
+   },
+   "2024-09": {
+    "avg": 52560,
+    "peak": 67263
+   },
+   "2024-10": {
+    "avg": 52664,
+    "peak": 78491
+   },
+   "2024-11": {
+    "avg": 51794,
+    "peak": 68400
+   },
+   "2024-12": {
+    "avg": 68683,
+    "peak": 146595
+   },
+   "2025-01": {
+    "avg": 47976,
+    "peak": 80723
+   },
+   "2025-02": {
+    "avg": 42205,
+    "peak": 58638
+   },
+   "2025-03": {
+    "avg": 43816,
+    "peak": 58434
+   },
+   "2025-04": {
+    "avg": 40714,
+    "peak": 55704
+   },
+   "2025-05": {
+    "avg": 41675,
+    "peak": 59650
+   },
+   "2025-06": {
+    "avg": 44741,
+    "peak": 60738
+   },
+   "2025-07": {
+    "avg": 44977,
+    "peak": 70613
+   },
+   "2025-08": {
+    "avg": 46106,
+    "peak": 62083
+   },
+   "2025-09": {
+    "avg": 47673,
+    "peak": 67138
+   },
+   "2025-10": {
+    "avg": 44427,
+    "peak": 82862
+   },
+   "2025-11": {
+    "avg": 45418,
+    "peak": 77876
+   },
+   "2025-12": {
+    "avg": 52408,
+    "peak": 92856
+   },
+   "2026-01": {
+    "avg": 48842,
+    "peak": 68845
+   },
+   "2026-02": {
+    "avg": 49578,
+    "peak": 65782
+   },
+   "2026-03": {
+    "avg": 49522,
+    "peak": 66670
+   },
+   "2026-04": {
+    "avg": 50683,
+    "peak": 69163
+   },
+   "2026-05": {
+    "avg": 46196,
+    "peak": 59777
+   },
+   "2026-06": {
+    "avg": 44842,
+    "peak": 60821
+   },
+   "2026-07": {
+    "avg": 47820,
+    "peak": 67731
+   },
+   "2026-08": {
+    "avg": 50286,
+    "peak": 63267
+   },
+   "2026-09": {
+    "avg": 55900,
+    "peak": 77668
+   }
+  }
+ },
+ "summaries": {
+  "cs2": {
+   "window": {
+    "months": 29,
+    "updates": 151,
+    "updates_per_month": 5.21,
+    "entries": 1577,
+    "entries_per_month": 54.4,
+    "median_entries": 6,
+    "median_gap_days": 5.0,
+    "max_gap_days": 42,
+    "mix": {
+     "fix": 453,
+     "new": 324,
+     "tune": 388,
+     "other": 412
+    },
+    "tiers": {
+     "micro": 103,
+     "medium": 12,
+     "small": 36
+    },
+    "gt_commits": 291,
+    "gt_days": 220,
+    "peak_median": 1573727,
+    "peak_months_known": 29,
+    "peak_max": 1818368,
+    "entries_per_100k_peak": 3.46,
+    "updates_per_100k_peak": 0.331
+   },
+   "year": {
+    "months": 12,
+    "updates": 62,
+    "updates_per_month": 5.17,
+    "entries": 753,
+    "entries_per_month": 62.8,
+    "median_entries": 8.0,
+    "median_gap_days": 5,
+    "max_gap_days": 34,
+    "mix": {
+     "fix": 163,
+     "new": 199,
+     "tune": 187,
+     "other": 204
+    },
+    "tiers": {
+     "medium": 6,
+     "small": 18,
+     "micro": 38
+    },
+    "gt_commits": 133,
+    "gt_days": 95,
+    "peak_median": 1580909,
+    "peak_months_known": 12,
+    "peak_max": 1717624,
+    "entries_per_100k_peak": 3.97,
+    "updates_per_100k_peak": 0.327
+   }
+  },
+  "dota2": {
+   "window": {
+    "months": 29,
+    "updates": 40,
+    "updates_per_month": 1.38,
+    "entries": 11108,
+    "entries_per_month": 383.0,
+    "median_entries": 128.5,
+    "median_gap_days": 14,
+    "max_gap_days": 75,
+    "mix": {
+     "fix": 790,
+     "new": 224,
+     "tune": 9169,
+     "other": 925
+    },
+    "tiers": {
+     "large": 25,
+     "medium": 6,
+     "micro": 3,
+     "small": 6
+    },
+    "gt_commits": 725,
+    "gt_days": 448,
+    "peak_median": 801126,
+    "peak_months_known": 29,
+    "peak_max": 981123,
+    "entries_per_100k_peak": 47.81,
+    "updates_per_100k_peak": 0.172
+   },
+   "year": {
+    "months": 12,
+    "updates": 15,
+    "updates_per_month": 1.25,
+    "entries": 4293,
+    "entries_per_month": 357.8,
+    "median_entries": 140,
+    "median_gap_days": 28.0,
+    "max_gap_days": 67,
+    "mix": {
+     "fix": 315,
+     "new": 61,
+     "tune": 3575,
+     "other": 342
+    },
+    "tiers": {
+     "medium": 2,
+     "small": 3,
+     "large": 10
+    },
+    "gt_commits": 297,
+    "gt_days": 186,
+    "peak_median": 861329,
+    "peak_months_known": 12,
+    "peak_max": 981123,
+    "entries_per_100k_peak": 41.54,
+    "updates_per_100k_peak": 0.145
+   }
+  },
+  "deadlock": {
+   "window": {
+    "months": 29,
+    "updates": 115,
+    "updates_per_month": 3.97,
+    "entries": 10038,
+    "entries_per_month": 346.1,
+    "median_entries": 36.0,
+    "median_gap_days": 4.5,
+    "max_gap_days": 28,
+    "mix": {
+     "fix": 771,
+     "new": 462,
+     "tune": 8066,
+     "other": 739
+    },
+    "tiers": {
+     "medium": 16,
+     "large": 38,
+     "micro": 27,
+     "small": 19,
+     "release": 15
+    },
+    "gt_commits": 837,
+    "gt_days": 382,
+    "peak_median": 96358,
+    "peak_months_known": 10,
+    "peak_max": 228086,
+    "entries_per_100k_peak": 359.18,
+    "updates_per_100k_peak": 4.12
+   },
+   "year": {
+    "months": 12,
+    "updates": 33,
+    "updates_per_month": 2.75,
+    "entries": 3429,
+    "entries_per_month": 285.8,
+    "median_entries": 76,
+    "median_gap_days": 9.0,
+    "max_gap_days": 28,
+    "mix": {
+     "fix": 116,
+     "new": 13,
+     "tune": 3217,
+     "other": 83
+    },
+    "tiers": {
+     "large": 11,
+     "medium": 8,
+     "release": 8,
+     "small": 5,
+     "micro": 1
+    },
+    "gt_commits": 383,
+    "gt_days": 186,
+    "peak_median": 100558,
+    "peak_months_known": 7,
+    "peak_max": 228086,
+    "entries_per_100k_peak": 284.21,
+    "updates_per_100k_peak": 2.735
+   }
+  },
+  "tf2": {
+   "window": {
+    "months": 29,
+    "updates": 49,
+    "updates_per_month": 1.69,
+    "entries": 1787,
+    "entries_per_month": 61.6,
+    "median_entries": 23,
+    "median_gap_days": 4.5,
+    "max_gap_days": 73,
+    "mix": {
+     "fix": 718,
+     "new": 153,
+     "tune": 362,
+     "other": 554
+    },
+    "tiers": {
+     "large": 4,
+     "medium": 18,
+     "small": 19,
+     "micro": 8
+    },
+    "gt_commits": 56,
+    "gt_days": 50,
+    "peak_median": 68400,
+    "peak_months_known": 29,
+    "peak_max": 159941,
+    "entries_per_100k_peak": 90.06,
+    "updates_per_100k_peak": 2.471
+   },
+   "year": {
+    "months": 12,
+    "updates": 21,
+    "updates_per_month": 1.75,
+    "entries": 542,
+    "entries_per_month": 45.2,
+    "median_entries": 18,
+    "median_gap_days": 3.5,
+    "max_gap_days": 73,
+    "mix": {
+     "fix": 254,
+     "new": 36,
+     "tune": 82,
+     "other": 170
+    },
+    "tiers": {
+     "medium": 7,
+     "small": 9,
+     "micro": 5
+    },
+    "gt_commits": 22,
+    "gt_days": 22,
+    "peak_median": 68288,
+    "peak_months_known": 12,
+    "peak_max": 92856,
+    "entries_per_100k_peak": 66.19,
+    "updates_per_100k_peak": 2.563
+   }
+  }
+ },
+ "last_update": {
+  "cs2": "2026-10-02",
+  "dota2": "2026-09-15",
+  "deadlock": "2026-10-02",
+  "tf2": "2026-10-02"
+ },
+ "deadlock_ccu": {
+  "_note": "Deadlock is hidden from Steam's public player-count API and from SteamCharts, so there is no continuous series. These are the monthly peaks that could be verified: figures attributed to SteamDB by the cited articles, plus the sampled 10-minute record of steamdb.com (a different site from steamdb.info) which only exists since 2026-07-02 and is therefore a lower bound. Months that are not listed are unknown, not zero.",
+  "monthly_peak": [
+   {
+    "month": "2024-09",
+    "peak": 171490,
+    "kind": "exact",
+    "note": "всё время до сентября 2026 — рекорд (2 сентября 2024)",
+    "src": "dexerto"
+   },
+   {
+    "month": "2025-07",
+    "peak": 15763,
+    "kind": "exact",
+    "src": "dexerto"
+   },
+   {
+    "month": "2025-08",
+    "peak": 60717,
+    "kind": "exact",
+    "note": "шесть новых героев",
+    "src": "dexerto"
+   },
+   {
+    "month": "2025-12",
+    "peak": 29153,
+    "kind": "exact",
+    "src": "dexerto"
+   },
+   {
+    "month": "2026-01",
+    "peak": 100558,
+    "kind": "exact",
+    "note": "Old Gods, New Blood",
+    "src": "chento"
+   },
+   {
+    "month": "2026-02",
+    "peak": 125665,
+    "kind": "exact",
+    "src": "chento"
+   },
+   {
+    "month": "2026-03",
+    "peak": 120267,
+    "kind": "exact",
+    "src": "chento"
+   },
+   {
+    "month": "2026-07",
+    "peak": 92159,
+    "kind": "lower_bound",
+    "src": "steamdb_com"
+   },
+   {
+    "month": "2026-08",
+    "peak": 85939,
+    "kind": "lower_bound",
+    "src": "steamdb_com"
+   },
+   {
+    "month": "2026-09",
+    "peak": 228086,
+    "kind": "exact",
+    "note": "City Never Sleeps (29 сентября)",
+    "src": "techtimes"
+   }
+  ],
+  "latest_peak": {
+   "date": "2026-10-02",
+   "peak": 228208,
+   "src": "steamdb_com"
+  },
+  "bounds": [
+   {
+    "text": "В 2025 году онлайн ни разу не превышал 70 тыс., в каждом месяце 2026 — превышал.",
+    "src": "forbes"
+   }
+  ],
+  "sources": {
+   "dexerto": {
+    "title": "Dexerto — How many people play Deadlock? (по данным SteamDB)",
+    "url": "https://www.dexerto.com/gaming/how-many-people-play-deadlock-player-count-2867201/"
+   },
+   "chento": {
+    "title": "Chento — Deadlock Q1 2026 growth vs difficulty (по данным SteamDB)",
+    "url": "https://chento.io/blog/deadlock-q1-2026-growth-vs-difficulty"
+   },
+   "techtimes": {
+    "title": "TechTimes — Deadlock hits all-time peak of 228,086 players",
+    "url": "https://www.techtimes.com/articles/328314/20260930/deadlock-hits-all-time-peak-228086-players-biggest-update-yet.htm"
+   },
+   "forbes": {
+    "title": "Forbes — Deadlock hits highest player count ever",
+    "url": "https://www.forbes.com/sites/mikestubbs/2026/09/30/deadlock-hits-highest-player-count-ever-following-major-patch/"
+   },
+   "steamdb_com": {
+    "title": "steamdb.com Steam Charts — Deadlock (запись раз в 10 минут с 2 июля 2026)",
+    "url": "https://steamdb.com/en/tools/steam-charts/1422450-deadlock"
+   }
+  }
+ },
+ "wiki": {
+  "only_monthly": {
+   "2024-01": 0,
+   "2024-02": 0,
+   "2024-03": 0,
+   "2024-04": 0,
+   "2024-05": 0,
+   "2024-06": 0,
+   "2024-07": 0,
+   "2024-08": 0,
+   "2024-09": 0,
+   "2024-10": 0,
+   "2024-11": 1,
+   "2024-12": 0,
+   "2025-01": 0,
+   "2025-02": 0,
+   "2025-03": 0,
+   "2025-04": 0,
+   "2025-05": 1,
+   "2025-06": 0,
+   "2025-07": 0,
+   "2025-08": 4,
+   "2025-09": 2,
+   "2025-10": 3,
+   "2025-11": 4,
+   "2025-12": 4,
+   "2026-01": 1,
+   "2026-02": 5,
+   "2026-03": 3,
+   "2026-04": 1,
+   "2026-05": 3,
+   "2026-06": 3,
+   "2026-07": 3,
+   "2026-08": 1,
+   "2026-09": 2,
+   "2026-10": 0
+  },
+  "only_total": 41,
+  "only_undocumented": 15
+ },
+ "live": {
+  "at": "2026-10-03 19:31 UTC",
+  "cs2": 1157068,
+  "dota2": 0,
+  "tf2": 0,
+  "deadlock": 176081
+ }
+}

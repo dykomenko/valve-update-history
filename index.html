@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Обновления игр Valve</title>
+<meta name="description" content="Сколько, насколько крупно и на какую аудиторию Valve обновляет Deadlock, CS2, Dota 2 и Team Fortress 2: графики патчноутов, сборок в Steam и онлайна.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a78d6'/%3E%3Cpath d='M7 22l5-7 4 4 5-9 4 6' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script>
+try { const t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,.10); --wash: rgba(11,11,11,.05);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+  --t1: #b2b1a7; --t2: #8b8a82; --t3: #65645e; --t4: #3e3d38;
+  --t1-ink: #0b0b0b; --t2-ink: #0b0b0b; --t3-ink: #ffffff; --t4-ink: #ffffff;
+  --focus: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: rgba(255,255,255,.06);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --t1: #55554f; --t2: #78776f; --t3: #9d9c93; --t4: #c9c8bf;
+    --t1-ink: #ffffff; --t2-ink: #ffffff; --t3-ink: #0b0b0b; --t4-ink: #0b0b0b;
+    --focus: #3987e5;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: rgba(255,255,255,.06);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  --t1: #55554f; --t2: #78776f; --t3: #9d9c93; --t4: #c9c8bf;
+  --t1-ink: #ffffff; --t2-ink: #ffffff; --t3-ink: #0b0b0b; --t4-ink: #0b0b0b;
+  --focus: #3987e5;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.page { max-width: 1040px; margin: 0 auto; padding: 0 16px 72px; }
+h1, h2, h3 { line-height: 1.2; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+h1 { font-size: clamp(28px, 5vw, 42px); }
+h2 { font-size: 22px; }
+h3 { font-size: 16px; }
+p { margin: 0; }
+a { color: inherit; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+.head { padding: 40px 0 8px; }
+.eyebrow { color: var(--ink-2); font-size: 14px; margin-bottom: 10px; }
+.lede { color: var(--ink-2); font-size: 18px; max-width: 62ch; margin-top: 14px; }
+
+.filters {
+  position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  padding: 12px 0; margin: 20px 0 8px; background: var(--bg); border-bottom: 1px solid var(--border);
+}
+.filters .lbl { color: var(--ink-2); font-size: 14px; }
+.filters .spacer { flex: 1; }
+.seg { display: inline-flex; padding: 3px; gap: 2px; background: var(--wash); border-radius: 10px; }
+.seg button {
+  font: inherit; font-size: 14px; color: var(--ink-2); background: transparent; border: 0; border-radius: 8px;
+  padding: 6px 12px; cursor: pointer;
+}
+.seg button:hover { background: var(--wash); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); font-weight: 600; box-shadow: 0 0 0 1px var(--border); }
+
+section { margin-top: 48px; scroll-margin-top: 72px; }
+.sec-head { margin-bottom: 14px; }
+.sec-head p { color: var(--ink-2); margin-top: 6px; max-width: 70ch; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+.card + .card { margin-top: 16px; }
+.card h3 { margin-bottom: 4px; }
+.card .sub { color: var(--ink-2); font-size: 14px; margin-bottom: 14px; max-width: 70ch; }
+.note { color: var(--ink-2); font-size: 13px; margin-top: 12px; max-width: 80ch; }
+
+/* hero */
+.hero { display: grid; grid-template-columns: auto 1fr; gap: 12px 28px; align-items: center; }
+.hero .big { font-size: clamp(64px, 12vw, 104px); line-height: .95; font-weight: 700; letter-spacing: -.03em; }
+.hero .txt { font-size: 18px; }
+.hero .txt small { display: block; color: var(--ink-2); font-size: 14px; margin-top: 8px; }
+@media (max-width: 560px) { .hero { grid-template-columns: 1fr; } }
+
+/* insight cards */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 16px; }
+.mini { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.mini .k { color: var(--ink-2); font-size: 13px; }
+.mini .v { font-size: 26px; font-weight: 650; letter-spacing: -.02em; margin: 2px 0; }
+.mini .d { color: var(--ink-2); font-size: 14px; }
+
+/* scorecard */
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: right; padding: 10px 12px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { color: var(--ink-2); font-weight: 500; font-size: 13px; line-height: 1.25; vertical-align: bottom; }
+th:first-child, td:first-child { text-align: left; padding-left: 0; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-variant-numeric: tabular-nums; }
+.gname { display: flex; align-items: center; gap: 8px; font-weight: 600; white-space: nowrap; }
+.gsub { color: var(--ink-2); font-size: 12px; font-weight: 400; white-space: nowrap; }
+.dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.cellbar { height: 6px; border-radius: 0 3px 3px 0; margin-top: 6px; min-width: 2px; }
+.cellbar-track { width: 84px; margin-left: auto; }
+
+/* legends */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 10px; padding: 0; list-style: none; }
+.legend button {
+  font: inherit; font-size: 14px; color: var(--ink); background: none; border: 0; padding: 4px 2px; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.legend button[aria-pressed="false"] { opacity: .4; }
+.lgstatic { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; padding: 4px 2px; }
+.key-line { width: 16px; height: 0; border-top: 2px solid; flex: none; border-radius: 1px; }
+.key-sq { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+.key-dash { border-top-style: dashed; }
+.key-hatch { background: repeating-linear-gradient(45deg, var(--ink-2) 0 1.5px, transparent 1.5px 4px); border: 1px solid var(--axis); }
+
+/* svg charts */
+.chart { position: relative; }
+.chart svg { display: block; max-width: 100%; overflow: visible; touch-action: pan-y; }
+svg .grid { stroke: var(--grid); stroke-width: 1; }
+svg .axis { stroke: var(--axis); stroke-width: 1; }
+svg .tick { fill: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+svg .lab { fill: var(--ink-2); font-size: 12.5px; }
+svg .line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+svg .cross { stroke: var(--axis); stroke-width: 1; }
+svg .ring { stroke: var(--surface); stroke-width: 2; }
+svg .capval { fill: var(--ink-2); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+
+/* horizontal bars */
+.hrow { display: grid; grid-template-columns: 96px 1fr; align-items: center; gap: 12px; padding: 7px 0; border-radius: 6px; }
+.hrow:hover, .hrow:focus-visible { background: var(--wash); }
+.hl { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; }
+.hb { position: relative; height: 20px; }
+.hb .bar { position: absolute; left: 0; top: 2px; height: 16px; border-radius: 0 4px 4px 0; min-width: 2px; }
+.hb .val { position: absolute; top: 0; line-height: 20px; font-size: 13px; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hb .val b { font-weight: 650; }
+.hb .val span { color: var(--ink-2); }
+
+/* stacked tiers */
+.stack { display: grid; grid-template-columns: 96px 1fr 64px; align-items: center; gap: 12px; padding: 6px 0; }
+.segs { display: flex; gap: 2px; height: 24px; }
+.seg1 { height: 24px; min-width: 0; display: grid; place-items: center; font-size: 11.5px; font-variant-numeric: tabular-nums; border-radius: 0; cursor: default; }
+.seg1:first-child { border-radius: 4px 0 0 4px; }
+.seg1:last-child { border-radius: 0 4px 4px 0; }
+.seg1:hover, .seg1:focus-visible { filter: brightness(1.12); }
+.seg1.t1 { background: var(--t1); color: var(--t1-ink); } .seg1.t2 { background: var(--t2); color: var(--t2-ink); }
+.seg1.t3 { background: var(--t3); color: var(--t3-ink); } .seg1.t4 { background: var(--t4); color: var(--t4-ink); }
+.chip { background: var(--surface); padding: 1px 5px; border-radius: 4px; }
+.seg1.rel { background: repeating-linear-gradient(45deg, var(--axis) 0 2px, transparent 2px 6px); color: var(--ink); }
+.n { color: var(--ink-2); font-size: 13px; text-align: right; font-variant-numeric: tabular-nums; }
+.k1 { background: var(--t1); } .k2 { background: var(--t2); } .k3 { background: var(--t3); } .k4 { background: var(--t4); }
+
+/* composition table */
+.mixcell { min-width: 120px; text-align: left; }
+.mixhead { text-align: left; }
+.mixbar { height: 8px; border-radius: 0 4px 4px 0; margin-top: 6px; min-width: 2px; }
+
+/* stat tiles */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.tile { border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; background: var(--surface); }
+.tile .k { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); }
+.tile .v { font-size: 26px; font-weight: 650; letter-spacing: -.02em; }
+.tile .d { font-size: 12px; color: var(--ink-2); }
+
+details { margin-top: 12px; }
+summary { cursor: pointer; color: var(--ink-2); font-size: 13px; width: fit-content; }
+summary:hover { color: var(--ink); }
+details table { margin-top: 8px; font-size: 13px; }
+details th, details td { padding: 6px 10px; }
+
+.prose { color: var(--ink-2); font-size: 15px; max-width: 78ch; }
+.prose p + p, .prose ul { margin-top: 10px; }
+.prose ul { padding-left: 20px; }
+.prose li { margin-top: 6px; }
+.prose b { color: var(--ink); font-weight: 600; }
+.src { font-size: 14px; color: var(--ink-2); }
+.src li { margin-top: 4px; }
+footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--ink-2); font-size: 13px; }
+
+/* tooltip */
+#tip {
+  position: fixed; z-index: 50; pointer-events: none; left: 0; top: 0; max-width: 280px; opacity: 0; transition: opacity .08s;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--axis); border-radius: 10px; padding: 9px 11px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.14); font-size: 13px;
+}
+#tip.on { opacity: 1; }
+#tip .th { color: var(--ink-2); font-size: 12px; margin-bottom: 5px; }
+#tip .tr { display: flex; align-items: baseline; gap: 8px; margin-top: 2px; }
+#tip .tk { width: 12px; height: 0; border-top: 2px solid; flex: none; align-self: center; border-radius: 1px; }
+#tip .tv { font-weight: 650; font-variant-numeric: tabular-nums; }
+#tip .tn { color: var(--ink-2); }
+#tip .tt { color: var(--ink-2); font-size: 12px; margin-top: 6px; }
+
+@media (max-width: 640px) {
+  .filters { position: static; }
+  .card { padding: 16px 14px; }
+  .hrow, .stack { grid-template-columns: 74px 1fr; }
+  .stack .n { display: none; }
+  .head { padding-top: 28px; }
+}
+@media (prefers-reduced-motion: reduce) { #tip { transition: none; } }
+@media (forced-colors: active) { .seg1.rel, .key-hatch { background: Canvas; border: 1px dashed CanvasText; } }
+</style>
+</head>
+<body>
+<main class="page">
+
+<header class="head">
+  <div class="eyebrow" id="asof"></div>
+  <h1>Кого Valve обновляет на самом деле</h1>
+  <p class="lede">Deadlock, CS2, Dota 2 и Team Fortress 2: сколько у каждой игры обновлений, насколько они крупные и какая аудитория за этим стоит. Данные с мая 2024 года, когда появился первый публичный журнал изменений Deadlock.</p>
+</header>
+
+<div class="filters" role="group" aria-label="Период">
+  <span class="lbl">Период</span>
+  <div class="seg" id="periodSeg">
+    <button type="button" data-p="window" aria-pressed="true"></button>
+    <button type="button" data-p="year" aria-pressed="false">Последние 12 месяцев</button>
+  </div>
+  <span class="spacer"></span>
+  <span class="lbl">Тема</span>
+  <div class="seg" id="themeSeg">
+    <button type="button" data-t="auto" aria-pressed="true">Авто</button>
+    <button type="button" data-t="light" aria-pressed="false">Светлая</button>
+    <button type="button" data-t="dark" aria-pressed="false">Тёмная</button>
+  </div>
+</div>
+
+<noscript><p class="note">Графики строятся скриптом — включите JavaScript. Исходные данные лежат в <a href="data/updates.json">data/updates.json</a>.</p></noscript>
+
+<section id="summary">
+  <div class="card">
+    <div class="hero">
+      <div class="big" id="heroNum" aria-hidden="true">—</div>
+      <div class="txt" id="heroTxt"></div>
+    </div>
+  </div>
+  <div class="cards" id="insights"></div>
+</section>
+
+<section id="scorecard">
+  <div class="sec-head">
+    <h2>Сводка по играм</h2>
+    <p>Все показатели за выбранный период, в пересчёте на месяц. Подробности подсчёта — в конце страницы.</p>
+  </div>
+  <div class="card"><div class="table-wrap" id="scoreWrap"></div></div>
+</section>
+
+<section id="counts">
+  <div class="sec-head">
+    <h2>Сколько обновлений</h2>
+    <p>Обновление — день, когда Valve опубликовала патчноуты. Частота сама по себе обманчива: у CS2 много мелких правок, у Dota 2 — редкие, но огромные патчи.</p>
+  </div>
+  <div class="card">
+    <h3>Обновления по месяцам</h3>
+    <p class="sub">Число дней в месяце с опубликованными патчноутами, шкала у всех игр общая. Бледная надстройка у Deadlock — правки, о которых Valve не писала патчноуты (по данным вики).</p>
+    <div class="chart" id="ch-updates"></div>
+    <div id="tb-updates"></div>
+  </div>
+</section>
+
+<section id="volume">
+  <div class="sec-head">
+    <h2>Сколько изменено и какого размера</h2>
+    <p>Меряем объём строчками патчноутов — это грубая, но одинаковая для всех игр мера. Одна строка — один пункт в списке изменений.</p>
+  </div>
+  <div class="card">
+    <h3>Накопленный объём патчноутов</h3>
+    <p class="sub">Сумма строк патчноутов с начала выбранного периода.</p>
+    <ul class="legend" id="lg-cum"></ul>
+    <div class="chart" id="ch-cum"></div>
+    <div id="tb-cum"></div>
+    <p class="note" id="cumNote"></p>
+  </div>
+  <div class="card">
+    <h3>Из каких обновлений состоит поддержка</h3>
+    <p class="sub">Доля обновлений каждого размера. Чем больше тёмных сегментов, тем больше крупных обновлений.</p>
+    <ul class="legend" id="lg-tiers"></ul>
+    <div id="ch-tiers"></div>
+    <div id="tb-tiers"></div>
+  </div>
+  <div class="card">
+    <h3>Что внутри патчноутов</h3>
+    <p class="sub">Доля строк каждого типа. Тип определён по формулировке строки, поэтому это оценка, а не точная классификация.</p>
+    <div class="table-wrap" id="mixWrap"></div>
+  </div>
+</section>
+
+<section id="builds">
+  <div class="sec-head">
+    <h2>Что реально выкатывается в Steam</h2>
+    <p>Valve пишет патчноуты не для каждой сборки. Репозитории SteamDB фиксируют любое изменение файлов игры — в том числе тихие обновления без анонсов.</p>
+  </div>
+  <div class="card">
+    <h3>Дни со сборками по месяцам</h3>
+    <p class="sub">В скольких днях месяца в Steam появилась новая версия файлов игры. У Deadlock данные есть с августа 2024 года.</p>
+    <div class="chart" id="ch-builds"></div>
+    <div id="tb-builds"></div>
+  </div>
+</section>
+
+<section id="online">
+  <div class="sec-head">
+    <h2>А стоит ли оно того: онлайн</h2>
+    <p>Сравниваем пик онлайна по месяцам. У Deadlock Steam не отдаёт публичную статистику, поэтому показаны только месяцы, которые удалось проверить, — пропуски означают «данных нет», а не ноль.</p>
+  </div>
+  <div class="tiles" id="liveTiles"></div>
+  <div class="card">
+    <h3>Пик онлайна по месяцам</h3>
+    <p class="sub">Максимум одновременных игроков за месяц, общая шкала. Пустой кружок у Deadlock — оценка снизу.</p>
+    <ul class="legend" id="lg-online"></ul>
+    <div class="chart" id="ch-online"></div>
+    <div id="tb-online"></div>
+  </div>
+  <div class="card">
+    <h3>Deadlock отдельно: как онлайн реагирует на крупные обновления</h3>
+    <p class="sub">Пик онлайна по известным месяцам. Нет столбца — нет проверенных данных. Бледные столбцы — оценка снизу: запись steamdb.com с июля 2026 года прореженная.</p>
+    <div class="chart" id="ch-dl"></div>
+    <div id="tb-dl"></div>
+    <p class="note" id="dlNote"></p>
+  </div>
+  <div class="card">
+    <h3>Строк патчноутов в месяц на каждые 100 тыс. игроков</h3>
+    <p class="sub" id="ratioSub"></p>
+    <div id="ch-ratio"></div>
+    <div id="tb-ratio"></div>
+    <p class="note" id="ratioNote"></p>
+  </div>
+</section>
+
+<section id="method">
+  <div class="sec-head"><h2>Как это считалось</h2></div>
+  <div class="card" id="methodBody"></div>
+</section>
+
+<footer id="foot"></footer>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script id="data" type="application/json">{"generated":"2026-10-03 19:31 UTC","months":["2024-01","2024-02","2024-03","2024-04","2024-05","2024-06","2024-07","2024-08","2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01","2026-02","2026-03","2026-04","2026-05","2026-06","2026-07","2026-08","2026-09","2026-10"],"window":{"start":"2024-05","end":"2026-09","months":["2024-05","2024-06","2024-07","2024-08","2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01","2026-02","2026-03","2026-04","2026-05","2026-06","2026-07","2026-08","2026-09"],"year":["2025-10","2025-11","2025-12","2026-01","2026-02","2026-03","2026-04","2026-05","2026-06","2026-07","2026-08","2026-09"]},"monthly":{"cs2":{"2024-01":{"updates":2,"entries":9,"fix":8,"new":0,"tune":1,"other":0,"micro":2,"small":0,"medium":0,"large":0,"release":0},"2024-02":{"updates":7,"entries":168,"fix":76,"new":23,"tune":49,"other":20,"micro":1,"small":4,"medium":2,"large":0,"release":0},"2024-03":{"updates":2,"entries":11,"fix":1,"new":4,"tune":5,"other":1,"micro":2,"small":0,"medium":0,"large":0,"release":0},"2024-04":{"updates":5,"entries":60,"fix":14,"new":16,"tune":13,"other":17,"micro":4,"small":0,"medium":1,"large":0,"release":0},"2024-05":{"updates":8,"entries":61,"fix":23,"new":4,"tune":18,"other":16,"micro":7,"small":0,"medium":1,"large":0,"release":0},"2024-06":{"updates":8,"entries":52,"fix":18,"new":15,"tune":8,"other":11,"micro":7,"small":1,"medium":0,"large":0,"release":0},"2024-07":{"updates":3,"entries":14,"fix":5,"new":2,"tune":3,"other":4,"micro":3,"small":0,"medium":0,"large":0,"release":0},"2024-08":{"updates":6,"entries":53,"fix":18,"new":2,"tune":17,"other":16,"micro":4,"small":2,"medium":0,"large":0,"release":0},"2024-09":{"updates":3,"entries":7,"fix":4,"new":2,"tune":1,"other":0,"micro":3,"small":0,"medium":0,"large":0,"release":0},"2024-10":{"updates":11,"entries":126,"fix":55,"new":15,"tune":31,"other":25,"micro":9,"small":1,"medium":1,"large":0,"release":0},"2024-11":{"updates":7,"entries":125,"fix":45,"new":22,"tune":25,"other":33,"micro":2,"small":4,"medium":1,"large":0,"release":0},"2024-12":{"updates":2,"entries":46,"fix":11,"new":6,"tune":16,"other":13,"micro":0,"small":1,"medium":1,"large":0,"release":0},"2025-01":{"updates":7,"entries":54,"fix":17,"new":7,"tune":15,"other":15,"micro":5,"small":2,"medium":0,"large":0,"release":0},"2025-02":{"updates":4,"entries":22,"fix":15,"new":1,"tune":4,"other":2,"micro":4,"small":0,"medium":0,"large":0,"release":0},"2025-03":{"updates":2,"entries":25,"fix":3,"new":2,"tune":6,"other":14,"micro":1,"small":1,"medium":0,"large":0,"release":0},"2025-04":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-05":{"updates":7,"entries":39,"fix":13,"new":5,"tune":9,"other":12,"micro":6,"small":1,"medium":0,"large":0,"release":0},"2025-06":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-07":{"updates":6,"entries":65,"fix":18,"new":7,"tune":20,"other":20,"micro":4,"small":1,"medium":1,"large":0,"release":0},"2025-08":{"updates":5,"entries":55,"fix":22,"new":4,"tune":15,"other":14,"micro":2,"small":3,"medium":0,"large":0,"release":0},"2025-09":{"updates":10,"entries":80,"fix":23,"new":31,"tune":13,"other":13,"micro":8,"small":1,"medium":1,"large":0,"release":0},"2025-10":{"updates":9,"entries":161,"fix":20,"new":50,"tune":42,"other":49,"micro":3,"small":5,"medium":1,"large":0,"release":0},"2025-11":{"updates":4,"entries":33,"fix":16,"new":3,"tune":8,"other":6,"micro":2,"small":2,"medium":0,"large":0,"release":0},"2025-12":{"updates":2,"entries":5,"fix":1,"new":1,"tune":3,"other":0,"micro":2,"small":0,"medium":0,"large":0,"release":0},"2026-01":{"updates":4,"entries":78,"fix":11,"new":10,"tune":27,"other":30,"micro":3,"small":0,"medium":1,"large":0,"release":0},"2026-02":{"updates":4,"entries":28,"fix":6,"new":9,"tune":5,"other":8,"micro":3,"small":1,"medium":0,"large":0,"release":0},"2026-03":{"updates":4,"entries":37,"fix":6,"new":11,"tune":8,"other":12,"micro":3,"small":1,"medium":0,"large":0,"release":0},"2026-04":{"updates":11,"entries":116,"fix":44,"new":6,"tune":31,"other":35,"micro":6,"small":5,"medium":0,"large":0,"release":0},"2026-05":{"updates":6,"entries":65,"fix":21,"new":17,"tune":17,"other":10,"micro":4,"small":2,"medium":0,"large":0,"release":0},"2026-06":{"updates":1,"entries":5,"fix":1,"new":4,"tune":0,"other":0,"micro":1,"small":0,"medium":0,"large":0,"release":0},"2026-07":{"updates":6,"entries":60,"fix":12,"new":14,"tune":16,"other":18,"micro":5,"small":0,"medium":1,"large":0,"release":0},"2026-08":{"updates":4,"entries":77,"fix":6,"new":52,"tune":2,"other":17,"micro":2,"small":0,"medium":2,"large":0,"release":0},"2026-09":{"updates":7,"entries":88,"fix":19,"new":22,"tune":28,"other":19,"micro":4,"small":2,"medium":1,"large":0,"release":0},"2026-10":{"updates":1,"entries":6,"fix":2,"new":0,"tune":2,"other":2,"micro":1,"small":0,"medium":0,"large":0,"release":0}},"dota2":{"2024-01":{"updates":1,"entries":10,"fix":9,"new":1,"tune":0,"other":0,"micro":0,"small":1,"medium":0,"large":0,"release":0},"2024-02":{"updates":1,"entries":145,"fix":1,"new":0,"tune":144,"other":0,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2024-03":{"updates":2,"entries":115,"fix":1,"new":0,"tune":113,"other":1,"micro":1,"small":0,"medium":0,"large":1,"release":0},"2024-04":{"updates":1,"entries":14,"fix":14,"new":0,"tune":0,"other":0,"micro":0,"small":1,"medium":0,"large":0,"release":0},"2024-05":{"updates":2,"entries":1844,"fix":91,"new":99,"tune":1517,"other":137,"micro":0,"small":0,"medium":0,"large":2,"release":0},"2024-06":{"updates":2,"entries":526,"fix":70,"new":0,"tune":424,"other":32,"micro":0,"small":0,"medium":0,"large":2,"release":0},"2024-07":{"updates":1,"entries":673,"fix":1,"new":13,"tune":514,"other":145,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2024-08":{"updates":2,"entries":245,"fix":24,"new":0,"tune":221,"other":0,"micro":0,"small":0,"medium":1,"large":1,"release":0},"2024-09":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-10":{"updates":1,"entries":148,"fix":0,"new":0,"tune":148,"other":0,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2024-11":{"updates":3,"entries":148,"fix":28,"new":0,"tune":120,"other":0,"micro":1,"small":0,"medium":1,"large":1,"release":0},"2024-12":{"updates":2,"entries":35,"fix":21,"new":2,"tune":11,"other":1,"micro":0,"small":2,"medium":0,"large":0,"release":0},"2025-01":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-02":{"updates":2,"entries":1668,"fix":50,"new":35,"tune":1418,"other":165,"micro":0,"small":0,"medium":1,"large":1,"release":0},"2025-03":{"updates":3,"entries":386,"fix":56,"new":1,"tune":303,"other":26,"micro":1,"small":0,"medium":0,"large":2,"release":0},"2025-04":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-05":{"updates":2,"entries":864,"fix":63,"new":12,"tune":715,"other":74,"micro":0,"small":0,"medium":0,"large":2,"release":0},"2025-06":{"updates":1,"entries":117,"fix":15,"new":1,"tune":99,"other":2,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2025-07":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-08":{"updates":4,"entries":161,"fix":56,"new":0,"tune":104,"other":1,"micro":1,"small":1,"medium":1,"large":1,"release":0},"2025-09":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-10":{"updates":2,"entries":115,"fix":12,"new":1,"tune":96,"other":6,"micro":0,"small":1,"medium":1,"large":0,"release":0},"2025-11":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-12":{"updates":2,"entries":1226,"fix":37,"new":10,"tune":1068,"other":111,"micro":0,"small":0,"medium":0,"large":2,"release":0},"2026-01":{"updates":2,"entries":122,"fix":26,"new":1,"tune":95,"other":0,"micro":0,"small":1,"medium":0,"large":1,"release":0},"2026-02":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-03":{"updates":3,"entries":1832,"fix":84,"new":48,"tune":1484,"other":216,"micro":0,"small":1,"medium":0,"large":2,"release":0},"2026-04":{"updates":1,"entries":181,"fix":2,"new":0,"tune":176,"other":3,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2026-05":{"updates":1,"entries":261,"fix":60,"new":1,"tune":196,"other":4,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2026-06":{"updates":1,"entries":219,"fix":16,"new":0,"tune":203,"other":0,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2026-07":{"updates":2,"entries":226,"fix":67,"new":0,"tune":157,"other":2,"micro":0,"small":0,"medium":1,"large":1,"release":0},"2026-08":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-09":{"updates":1,"entries":111,"fix":11,"new":0,"tune":100,"other":0,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2026-10":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0}},"deadlock":{"2024-01":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-02":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-03":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-04":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-05":{"updates":8,"entries":629,"fix":76,"new":39,"tune":479,"other":35,"micro":3,"small":0,"medium":1,"large":4,"release":0},"2024-06":{"updates":9,"entries":621,"fix":56,"new":46,"tune":465,"other":54,"micro":5,"small":0,"medium":0,"large":4,"release":0},"2024-07":{"updates":4,"entries":581,"fix":44,"new":40,"tune":455,"other":42,"micro":1,"small":0,"medium":0,"large":3,"release":0},"2024-08":{"updates":8,"entries":886,"fix":108,"new":72,"tune":610,"other":96,"micro":2,"small":3,"medium":0,"large":3,"release":0},"2024-09":{"updates":8,"entries":600,"fix":79,"new":50,"tune":404,"other":67,"micro":5,"small":1,"medium":0,"large":2,"release":0},"2024-10":{"updates":9,"entries":680,"fix":60,"new":58,"tune":498,"other":64,"micro":3,"small":4,"medium":0,"large":2,"release":0},"2024-11":{"updates":6,"entries":615,"fix":50,"new":47,"tune":462,"other":56,"micro":3,"small":1,"medium":0,"large":2,"release":0},"2024-12":{"updates":4,"entries":319,"fix":34,"new":16,"tune":252,"other":17,"micro":1,"small":2,"medium":0,"large":1,"release":0},"2025-01":{"updates":4,"entries":134,"fix":9,"new":0,"tune":118,"other":7,"micro":0,"small":1,"medium":2,"large":0,"release":1},"2025-02":{"updates":2,"entries":23,"fix":1,"new":0,"tune":22,"other":0,"micro":1,"small":1,"medium":0,"large":0,"release":0},"2025-03":{"updates":3,"entries":30,"fix":1,"new":0,"tune":27,"other":2,"micro":2,"small":1,"medium":0,"large":0,"release":0},"2025-04":{"updates":2,"entries":146,"fix":19,"new":1,"tune":121,"other":5,"micro":0,"small":0,"medium":1,"large":1,"release":0},"2025-05":{"updates":5,"entries":835,"fix":100,"new":74,"tune":469,"other":192,"micro":0,"small":0,"medium":3,"large":2,"release":0},"2025-06":{"updates":1,"entries":72,"fix":2,"new":3,"tune":57,"other":10,"micro":0,"small":0,"medium":1,"large":0,"release":0},"2025-07":{"updates":2,"entries":288,"fix":16,"new":3,"tune":261,"other":8,"micro":0,"small":0,"medium":0,"large":2,"release":0},"2025-08":{"updates":6,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":6},"2025-09":{"updates":1,"entries":150,"fix":0,"new":0,"tune":149,"other":1,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2025-10":{"updates":2,"entries":250,"fix":5,"new":2,"tune":234,"other":9,"micro":0,"small":0,"medium":1,"large":1,"release":0},"2025-11":{"updates":1,"entries":246,"fix":7,"new":2,"tune":232,"other":5,"micro":0,"small":0,"medium":0,"large":1,"release":0},"2025-12":{"updates":2,"entries":119,"fix":5,"new":0,"tune":114,"other":0,"micro":0,"small":0,"medium":2,"large":0,"release":0},"2026-01":{"updates":4,"entries":163,"fix":4,"new":2,"tune":154,"other":3,"micro":0,"small":0,"medium":0,"large":1,"release":3},"2026-02":{"updates":4,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":4},"2026-03":{"updates":3,"entries":1421,"fix":35,"new":4,"tune":1365,"other":17,"micro":0,"small":0,"medium":1,"large":2,"release":0},"2026-04":{"updates":2,"entries":276,"fix":18,"new":1,"tune":255,"other":2,"micro":0,"small":0,"medium":0,"large":2,"release":0},"2026-05":{"updates":4,"entries":352,"fix":22,"new":2,"tune":316,"other":12,"micro":0,"small":3,"medium":0,"large":1,"release":0},"2026-06":{"updates":3,"entries":242,"fix":10,"new":0,"tune":220,"other":12,"micro":0,"small":1,"medium":1,"large":1,"release":0},"2026-07":{"updates":4,"entries":194,"fix":4,"new":0,"tune":168,"other":22,"micro":1,"small":0,"medium":2,"large":1,"release":0},"2026-08":{"updates":2,"entries":43,"fix":1,"new":0,"tune":42,"other":0,"micro":0,"small":1,"medium":1,"large":0,"release":0},"2026-09":{"updates":2,"entries":123,"fix":5,"new":0,"tune":117,"other":1,"micro":0,"small":0,"medium":0,"large":1,"release":1},"2026-10":{"updates":1,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":1}},"tf2":{"2024-01":{"updates":1,"entries":20,"fix":10,"new":0,"tune":2,"other":8,"micro":0,"small":1,"medium":0,"large":0,"release":0},"2024-02":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-03":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-04":{"updates":3,"entries":14,"fix":10,"new":1,"tune":2,"other":1,"micro":3,"small":0,"medium":0,"large":0,"release":0},"2024-05":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-06":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-07":{"updates":3,"entries":233,"fix":76,"new":22,"tune":60,"other":75,"micro":0,"small":0,"medium":2,"large":1,"release":0},"2024-08":{"updates":3,"entries":78,"fix":36,"new":4,"tune":11,"other":27,"micro":0,"small":2,"medium":1,"large":0,"release":0},"2024-09":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2024-10":{"updates":5,"entries":363,"fix":121,"new":32,"tune":93,"other":117,"micro":0,"small":1,"medium":2,"large":2,"release":0},"2024-11":{"updates":2,"entries":23,"fix":10,"new":2,"tune":7,"other":4,"micro":0,"small":2,"medium":0,"large":0,"release":0},"2024-12":{"updates":4,"entries":231,"fix":83,"new":18,"tune":61,"other":69,"micro":0,"small":1,"medium":2,"large":1,"release":0},"2025-01":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-02":{"updates":1,"entries":59,"fix":28,"new":10,"tune":8,"other":13,"micro":0,"small":0,"medium":1,"large":0,"release":0},"2025-03":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-04":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-05":{"updates":3,"entries":55,"fix":45,"new":3,"tune":2,"other":5,"micro":2,"small":0,"medium":1,"large":0,"release":0},"2025-06":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-07":{"updates":4,"entries":145,"fix":42,"new":18,"tune":30,"other":55,"micro":1,"small":1,"medium":2,"large":0,"release":0},"2025-08":{"updates":3,"entries":58,"fix":23,"new":8,"tune":8,"other":19,"micro":0,"small":3,"medium":0,"large":0,"release":0},"2025-09":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-10":{"updates":8,"entries":172,"fix":70,"new":16,"tune":27,"other":59,"micro":2,"small":3,"medium":3,"large":0,"release":0},"2025-11":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2025-12":{"updates":4,"entries":122,"fix":74,"new":10,"tune":12,"other":26,"micro":0,"small":3,"medium":1,"large":0,"release":0},"2026-01":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-02":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-03":{"updates":2,"entries":73,"fix":47,"new":1,"tune":2,"other":23,"micro":1,"small":0,"medium":1,"large":0,"release":0},"2026-04":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-05":{"updates":2,"entries":67,"fix":18,"new":4,"tune":14,"other":31,"micro":1,"small":0,"medium":1,"large":0,"release":0},"2026-06":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-07":{"updates":5,"entries":108,"fix":45,"new":5,"tune":27,"other":31,"micro":1,"small":3,"medium":1,"large":0,"release":0},"2026-08":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-09":{"updates":0,"entries":0,"fix":0,"new":0,"tune":0,"other":0,"micro":0,"small":0,"medium":0,"large":0,"release":0},"2026-10":{"updates":2,"entries":265,"fix":58,"new":26,"tune":57,"other":124,"micro":0,"small":1,"medium":0,"large":1,"release":0}}},"gametracking":{"cs2":{"commits":{"2024-01":4,"2024-02":12,"2024-03":10,"2024-04":9,"2024-05":14,"2024-06":12,"2024-07":6,"2024-08":8,"2024-09":3,"2024-10":19,"2024-11":12,"2024-12":4,"2025-01":8,"2025-02":5,"2025-03":7,"2025-04":3,"2025-05":14,"2025-06":3,"2025-07":12,"2025-08":10,"2025-09":18,"2025-10":16,"2025-11":9,"2025-12":6,"2026-01":11,"2026-02":5,"2026-03":18,"2026-04":12,"2026-05":11,"2026-06":5,"2026-07":16,"2026-08":9,"2026-09":15,"2026-10":1},"days":{"2024-01":3,"2024-02":8,"2024-03":9,"2024-04":7,"2024-05":9,"2024-06":9,"2024-07":5,"2024-08":7,"2024-09":3,"2024-10":16,"2024-11":9,"2024-12":3,"2025-01":7,"2025-02":5,"2025-03":6,"2025-04":3,"2025-05":11,"2025-06":3,"2025-07":9,"2025-08":7,"2025-09":13,"2025-10":12,"2025-11":7,"2025-12":4,"2026-01":8,"2026-02":5,"2026-03":13,"2026-04":8,"2026-05":9,"2026-06":4,"2026-07":10,"2026-08":8,"2026-09":7,"2026-10":1},"first":"2024-01-04"},"dota2":{"commits":{"2024-01":12,"2024-02":17,"2024-03":18,"2024-04":14,"2024-05":30,"2024-06":24,"2024-07":20,"2024-08":36,"2024-09":23,"2024-10":15,"2024-11":29,"2024-12":13,"2025-01":16,"2025-02":25,"2025-03":34,"2025-04":17,"2025-05":42,"2025-06":33,"2025-07":9,"2025-08":28,"2025-09":34,"2025-10":13,"2025-11":22,"2025-12":30,"2026-01":19,"2026-02":23,"2026-03":28,"2026-04":22,"2026-05":16,"2026-06":39,"2026-07":28,"2026-08":33,"2026-09":24,"2026-10":1},"days":{"2024-01":11,"2024-02":13,"2024-03":12,"2024-04":11,"2024-05":17,"2024-06":16,"2024-07":15,"2024-08":17,"2024-09":16,"2024-10":11,"2024-11":16,"2024-12":10,"2025-01":13,"2025-02":13,"2025-03":21,"2025-04":12,"2025-05":19,"2025-06":19,"2025-07":8,"2025-08":20,"2025-09":19,"2025-10":10,"2025-11":11,"2025-12":17,"2026-01":13,"2026-02":17,"2026-03":16,"2026-04":14,"2026-05":15,"2026-06":19,"2026-07":17,"2026-08":23,"2026-09":14,"2026-10":1},"first":"2024-01-02"},"deadlock":{"commits":{"2024-01":0,"2024-02":0,"2024-03":0,"2024-04":0,"2024-05":0,"2024-06":0,"2024-07":0,"2024-08":41,"2024-09":60,"2024-10":58,"2024-11":59,"2024-12":21,"2025-01":21,"2025-02":11,"2025-03":13,"2025-04":14,"2025-05":52,"2025-06":15,"2025-07":20,"2025-08":57,"2025-09":12,"2025-10":34,"2025-11":30,"2025-12":34,"2026-01":63,"2026-02":58,"2026-03":38,"2026-04":16,"2026-05":27,"2026-06":24,"2026-07":29,"2026-08":14,"2026-09":16,"2026-10":8},"days":{"2024-01":0,"2024-02":0,"2024-03":0,"2024-04":0,"2024-05":0,"2024-06":0,"2024-07":0,"2024-08":14,"2024-09":26,"2024-10":23,"2024-11":24,"2024-12":10,"2025-01":9,"2025-02":6,"2025-03":10,"2025-04":8,"2025-05":20,"2025-06":10,"2025-07":10,"2025-08":16,"2025-09":10,"2025-10":18,"2025-11":12,"2025-12":12,"2026-01":21,"2026-02":25,"2026-03":19,"2026-04":10,"2026-05":15,"2026-06":15,"2026-07":17,"2026-08":12,"2026-09":10,"2026-10":3},"first":"2024-08-10"},"tf2":{"commits":{"2024-01":1,"2024-02":0,"2024-03":0,"2024-04":3,"2024-05":0,"2024-06":0,"2024-07":5,"2024-08":3,"2024-09":0,"2024-10":6,"2024-11":2,"2024-12":5,"2025-01":0,"2025-02":1,"2025-03":0,"2025-04":0,"2025-05":4,"2025-06":0,"2025-07":4,"2025-08":4,"2025-09":0,"2025-10":8,"2025-11":0,"2025-12":4,"2026-01":0,"2026-02":0,"2026-03":3,"2026-04":0,"2026-05":2,"2026-06":0,"2026-07":5,"2026-08":0,"2026-09":0,"2026-10":2},"days":{"2024-01":1,"2024-02":0,"2024-03":0,"2024-04":3,"2024-05":0,"2024-06":0,"2024-07":3,"2024-08":3,"2024-09":0,"2024-10":5,"2024-11":2,"2024-12":4,"2025-01":0,"2025-02":1,"2025-03":0,"2025-04":0,"2025-05":3,"2025-06":0,"2025-07":4,"2025-08":3,"2025-09":0,"2025-10":8,"2025-11":0,"2025-12":4,"2026-01":0,"2026-02":0,"2026-03":3,"2026-04":0,"2026-05":2,"2026-06":0,"2026-07":5,"2026-08":0,"2026-09":0,"2026-10":2},"first":"2024-01-10"}},"ccu_monthly":{"cs2":{"2024-01":{"avg":760859,"peak":1277907},"2024-02":{"avg":786631,"peak":1347519},"2024-03":{"avg":885630,"peak":1521796},"2024-04":{"avg":930749,"peak":1618685},"2024-05":{"avg":958207,"peak":1614925},"2024-06":{"avg":947521,"peak":1510840},"2024-07":{"avg":875365,"peak":1342171},"2024-08":{"avg":897338,"peak":1425958},"2024-09":{"avg":836307,"peak":1473144},"2024-10":{"avg":829439,"peak":1484045},"2024-11":{"avg":852164,"peak":1556938},"2024-12":{"avg":913953,"peak":1740261},"2025-01":{"avg":914092,"peak":1594016},"2025-02":{"avg":1003571,"peak":1783434},"2025-03":{"avg":1039663,"peak":1818368},"2025-04":{"avg":1045702,"peak":1811827},"2025-05":{"avg":1038597,"peak":1712216},"2025-06":{"avg":1010124,"peak":1725815},"2025-07":{"avg":920070,"peak":1427300},"2025-08":{"avg":928429,"peak":1502245},"2025-09":{"avg":925940,"peak":1571060},"2025-10":{"avg":948244,"peak":1588091},"2025-11":{"avg":981482,"peak":1597285},"2025-12":{"avg":991177,"peak":1620137},"2026-01":{"avg":1070444,"peak":1654355},"2026-02":{"avg":1084095,"peak":1627561},"2026-03":{"avg":1069173,"peak":1717624},"2026-04":{"avg":974786,"peak":1564830},"2026-05":{"avg":932721,"peak":1489217},"2026-06":{"avg":916655,"peak":1573727},"2026-07":{"avg":853232,"peak":1420896},"2026-08":{"avg":825258,"peak":1331274},"2026-09":{"avg":805638,"peak":1450705}},"dota2":{"2024-01":{"avg":440229,"peak":736488},"2024-02":{"avg":427922,"peak":741290},"2024-03":{"avg":428919,"peak":729865},"2024-04":{"avg":456551,"peak":921133},"2024-05":{"avg":512919,"peak":943059},"2024-06":{"avg":486674,"peak":869492},"2024-07":{"avg":475394,"peak":801126},"2024-08":{"avg":449798,"peak":734381},"2024-09":{"avg":426812,"peak":726385},"2024-10":{"avg":410682,"peak":706726},"2024-11":{"avg":454956,"peak":797599},"2024-12":{"avg":437636,"peak":744163},"2025-01":{"avg":446491,"peak":719825},"2025-02":{"avg":431749,"peak":708043},"2025-03":{"avg":402851,"peak":656279},"2025-04":{"avg":393173,"peak":630716},"2025-05":{"avg":408988,"peak":657074},"2025-06":{"avg":411123,"peak":650259},"2025-07":{"avg":426673,"peak":657349},"2025-08":{"avg":532355,"peak":818732},"2025-09":{"avg":580821,"peak":953869},"2025-10":{"avg":538998,"peak":858940},"2025-11":{"avg":583744,"peak":903303},"2025-12":{"avg":594290,"peak":903542},"2026-01":{"avg":569324,"peak":855690},"2026-02":{"avg":597010,"peak":869734},"2026-03":{"avg":477856,"peak":859016},"2026-04":{"avg":425919,"peak":695006},"2026-05":{"avg":422693,"peak":664213},"2026-06":{"avg":466002,"peak":862639},"2026-07":{"avg":545528,"peak":860019},"2026-08":{"avg":617078,"peak":981123},"2026-09":{"avg":571294,"peak":919002}},"tf2":{"2024-01":{"avg":94137,"peak":179882},"2024-02":{"avg":70143,"peak":98588},"2024-03":{"avg":59993,"peak":77754},"2024-04":{"avg":64921,"peak":83577},"2024-05":{"avg":72179,"peak":99995},"2024-06":{"avg":78099,"peak":148457},"2024-07":{"avg":97583,"peak":159941},"2024-08":{"avg":63648,"peak":97050},"2024-09":{"avg":52560,"peak":67263},"2024-10":{"avg":52664,"peak":78491},"2024-11":{"avg":51794,"peak":68400},"2024-12":{"avg":68683,"peak":146595},"2025-01":{"avg":47976,"peak":80723},"2025-02":{"avg":42205,"peak":58638},"2025-03":{"avg":43816,"peak":58434},"2025-04":{"avg":40714,"peak":55704},"2025-05":{"avg":41675,"peak":59650},"2025-06":{"avg":44741,"peak":60738},"2025-07":{"avg":44977,"peak":70613},"2025-08":{"avg":46106,"peak":62083},"2025-09":{"avg":47673,"peak":67138},"2025-10":{"avg":44427,"peak":82862},"2025-11":{"avg":45418,"peak":77876},"2025-12":{"avg":52408,"peak":92856},"2026-01":{"avg":48842,"peak":68845},"2026-02":{"avg":49578,"peak":65782},"2026-03":{"avg":49522,"peak":66670},"2026-04":{"avg":50683,"peak":69163},"2026-05":{"avg":46196,"peak":59777},"2026-06":{"avg":44842,"peak":60821},"2026-07":{"avg":47820,"peak":67731},"2026-08":{"avg":50286,"peak":63267},"2026-09":{"avg":55900,"peak":77668}}},"summaries":{"cs2":{"window":{"months":29,"updates":151,"updates_per_month":5.21,"entries":1577,"entries_per_month":54.4,"median_entries":6,"median_gap_days":5.0,"max_gap_days":42,"mix":{"fix":453,"new":324,"tune":388,"other":412},"tiers":{"micro":103,"medium":12,"small":36},"gt_commits":291,"gt_days":220,"peak_median":1573727,"peak_months_known":29,"peak_max":1818368,"entries_per_100k_peak":3.46,"updates_per_100k_peak":0.331},"year":{"months":12,"updates":62,"updates_per_month":5.17,"entries":753,"entries_per_month":62.8,"median_entries":8.0,"median_gap_days":5,"max_gap_days":34,"mix":{"fix":163,"new":199,"tune":187,"other":204},"tiers":{"medium":6,"small":18,"micro":38},"gt_commits":133,"gt_days":95,"peak_median":1580909,"peak_months_known":12,"peak_max":1717624,"entries_per_100k_peak":3.97,"updates_per_100k_peak":0.327}},"dota2":{"window":{"months":29,"updates":40,"updates_per_month":1.38,"entries":11108,"entries_per_month":383.0,"median_entries":128.5,"median_gap_days":14,"max_gap_days":75,"mix":{"fix":790,"new":224,"tune":9169,"other":925},"tiers":{"large":25,"medium":6,"micro":3,"small":6},"gt_commits":725,"gt_days":448,"peak_median":801126,"peak_months_known":29,"peak_max":981123,"entries_per_100k_peak":47.81,"updates_per_100k_peak":0.172},"year":{"months":12,"updates":15,"updates_per_month":1.25,"entries":4293,"entries_per_month":357.8,"median_entries":140,"median_gap_days":28.0,"max_gap_days":67,"mix":{"fix":315,"new":61,"tune":3575,"other":342},"tiers":{"medium":2,"small":3,"large":10},"gt_commits":297,"gt_days":186,"peak_median":861329,"peak_months_known":12,"peak_max":981123,"entries_per_100k_peak":41.54,"updates_per_100k_peak":0.145}},"deadlock":{"window":{"months":29,"updates":115,"updates_per_month":3.97,"entries":10038,"entries_per_month":346.1,"median_entries":36.0,"median_gap_days":4.5,"max_gap_days":28,"mix":{"fix":771,"new":462,"tune":8066,"other":739},"tiers":{"medium":16,"large":38,"micro":27,"small":19,"release":15},"gt_commits":837,"gt_days":382,"peak_median":96358,"peak_months_known":10,"peak_max":228086,"entries_per_100k_peak":359.18,"updates_per_100k_peak":4.12},"year":{"months":12,"updates":33,"updates_per_month":2.75,"entries":3429,"entries_per_month":285.8,"median_entries":76,"median_gap_days":9.0,"max_gap_days":28,"mix":{"fix":116,"new":13,"tune":3217,"other":83},"tiers":{"large":11,"medium":8,"release":8,"small":5,"micro":1},"gt_commits":383,"gt_days":186,"peak_median":100558,"peak_months_known":7,"peak_max":228086,"entries_per_100k_peak":284.21,"updates_per_100k_peak":2.735}},"tf2":{"window":{"months":29,"updates":49,"updates_per_month":1.69,"entries":1787,"entries_per_month":61.6,"median_entries":23,"median_gap_days":4.5,"max_gap_days":73,"mix":{"fix":718,"new":153,"tune":362,"other":554},"tiers":{"large":4,"medium":18,"small":19,"micro":8},"gt_commits":56,"gt_days":50,"peak_median":68400,"peak_months_known":29,"peak_max":159941,"entries_per_100k_peak":90.06,"updates_per_100k_peak":2.471},"year":{"months":12,"updates":21,"updates_per_month":1.75,"entries":542,"entries_per_month":45.2,"median_entries":18,"median_gap_days":3.5,"max_gap_days":73,"mix":{"fix":254,"new":36,"tune":82,"other":170},"tiers":{"medium":7,"small":9,"micro":5},"gt_commits":22,"gt_days":22,"peak_median":68288,"peak_months_known":12,"peak_max":92856,"entries_per_100k_peak":66.19,"updates_per_100k_peak":2.563}}},"last_update":{"cs2":"2026-10-02","dota2":"2026-09-15","deadlock":"2026-10-02","tf2":"2026-10-02"},"deadlock_ccu":{"_note":"Deadlock is hidden from Steam's public player-count API and from SteamCharts, so there is no continuous series. These are the monthly peaks that could be verified: figures attributed to SteamDB by the cited articles, plus the sampled 10-minute record of steamdb.com (a different site from steamdb.info) which only exists since 2026-07-02 and is therefore a lower bound. Months that are not listed are unknown, not zero.","monthly_peak":[{"month":"2024-09","peak":171490,"kind":"exact","note":"всё время до сентября 2026 — рекорд (2 сентября 2024)","src":"dexerto"},{"month":"2025-07","peak":15763,"kind":"exact","src":"dexerto"},{"month":"2025-08","peak":60717,"kind":"exact","note":"шесть новых героев","src":"dexerto"},{"month":"2025-12","peak":29153,"kind":"exact","src":"dexerto"},{"month":"2026-01","peak":100558,"kind":"exact","note":"Old Gods, New Blood","src":"chento"},{"month":"2026-02","peak":125665,"kind":"exact","src":"chento"},{"month":"2026-03","peak":120267,"kind":"exact","src":"chento"},{"month":"2026-07","peak":92159,"kind":"lower_bound","src":"steamdb_com"},{"month":"2026-08","peak":85939,"kind":"lower_bound","src":"steamdb_com"},{"month":"2026-09","peak":228086,"kind":"exact","note":"City Never Sleeps (29 сентября)","src":"techtimes"}],"latest_peak":{"date":"2026-10-02","peak":228208,"src":"steamdb_com"},"bounds":[{"text":"В 2025 году онлайн ни разу не превышал 70 тыс., в каждом месяце 2026 — превышал.","src":"forbes"}],"sources":{"dexerto":{"title":"Dexerto — How many people play Deadlock? (по данным SteamDB)","url":"https://www.dexerto.com/gaming/how-many-people-play-deadlock-player-count-2867201/"},"chento":{"title":"Chento — Deadlock Q1 2026 growth vs difficulty (по данным SteamDB)","url":"https://chento.io/blog/deadlock-q1-2026-growth-vs-difficulty"},"techtimes":{"title":"TechTimes — Deadlock hits all-time peak of 228,086 players","url":"https://www.techtimes.com/articles/328314/20260930/deadlock-hits-all-time-peak-228086-players-biggest-update-yet.htm"},"forbes":{"title":"Forbes — Deadlock hits highest player count ever","url":"https://www.forbes.com/sites/mikestubbs/2026/09/30/deadlock-hits-highest-player-count-ever-following-major-patch/"},"steamdb_com":{"title":"steamdb.com Steam Charts — Deadlock (запись раз в 10 минут с 2 июля 2026)","url":"https://steamdb.com/en/tools/steam-charts/1422450-deadlock"}}},"wiki":{"only_monthly":{"2024-01":0,"2024-02":0,"2024-03":0,"2024-04":0,"2024-05":0,"2024-06":0,"2024-07":0,"2024-08":0,"2024-09":0,"2024-10":0,"2024-11":1,"2024-12":0,"2025-01":0,"2025-02":0,"2025-03":0,"2025-04":0,"2025-05":1,"2025-06":0,"2025-07":0,"2025-08":4,"2025-09":2,"2025-10":3,"2025-11":4,"2025-12":4,"2026-01":1,"2026-02":5,"2026-03":3,"2026-04":1,"2026-05":3,"2026-06":3,"2026-07":3,"2026-08":1,"2026-09":2,"2026-10":0},"only_total":41,"only_undocumented":15},"live":{"at":"2026-10-03 19:31 UTC","cs2":1157068,"dota2":0,"tf2":0,"deadlock":176081}}</script>
+<script>
+(() => {
+'use strict';
+const D = JSON.parse(document.getElementById('data').textContent);
+
+/* ---------- helpers ---------- */
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') n.className = v; else if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+  }
+  kids.flat().forEach(c => { if (c != null) n.append(c); });
+  return n;
+};
+const sv = (tag, attrs = {}, ...kids) => {
+  const n = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  kids.flat().forEach(c => { if (c != null) n.append(c); });
+  return n;
+};
+const $ = id => document.getElementById(id);
+const nf1 = new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 1 });
+const nf0 = new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 0 });
+const nf1f = new Intl.NumberFormat('ru-RU', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const compact = v => v >= 1e6 ? nf1.format(Math.round(v / 1e5) / 10) + ' млн' : v >= 1e3 ? nf0.format(Math.round(v / 1e3)) + ' тыс.' : nf0.format(v);
+const MS = ['янв', 'фев', 'мар', 'апр', 'май', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
+const ML = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+const mShort = m => MS[+m.slice(5) - 1];
+const mLong = m => ML[+m.slice(5) - 1] + ' ' + m.slice(0, 4);
+const times = n => { const k = Math.round(n), a = k % 100, b = k % 10; return nf0.format(k) + ((a < 12 || a > 14) && b >= 2 && b <= 4 ? ' раза' : ' раз'); };
+const pct = v => nf0.format(Math.round(v * 100)) + '%';
+const fmtDate = iso => { const d = new Date(iso + 'T00:00:00Z'); return d.getUTCDate() + ' ' + ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'][d.getUTCMonth()]; };
+
+const GAMES = [
+  { id: 'deadlock', name: 'Deadlock', color: 'var(--s1)' },
+  { id: 'cs2', name: 'CS2', color: 'var(--s2)' },
+  { id: 'dota2', name: 'Dota 2', color: 'var(--s3)' },
+  { id: 'tf2', name: 'TF2', color: 'var(--s4)' },
+];
+const GM = Object.fromEntries(GAMES.map(g => [g.id, g]));
+const TIERS = [
+  { id: 'micro', cls: 't1', k: 'k1', name: 'Микро', rule: 'меньше 10 строк' },
+  { id: 'small', cls: 't2', k: 'k2', name: 'Малые', rule: '10–29 строк' },
+  { id: 'medium', cls: 't3', k: 'k3', name: 'Средние', rule: '30–99 строк' },
+  { id: 'large', cls: 't4', k: 'k4', name: 'Крупные', rule: '100 и больше строк' },
+  { id: 'release', cls: 'rel', k: 'key-hatch', name: 'Релиз без списка изменений', rule: 'пост о выходе героя или режима, список изменений опубликован отдельно' },
+];
+const state = { period: 'window', hidden: {} };
+const hid = id => (state.hidden[id] ||= new Set());
+const period = () => state.period === 'year'
+  ? { key: 'year', months: D.window.year, label: 'последние 12 месяцев' }
+  : { key: 'window', months: D.window.months, label: 'с мая 2024 по сентябрь 2026' };
+const S = g => D.summaries[g][period().key];
+const dlFirstGT = D.gametracking.deadlock.first.slice(0, 7);
+const gtMonths = (g, ms) => ms.filter(m => g !== 'deadlock' || m >= dlFirstGT).length;
+const peakSeries = (g, ms) => ms.map(m => g === 'deadlock'
+  ? (D.deadlock_ccu.monthly_peak.find(p => p.month === m)?.peak ?? null)
+  : (D.ccu_monthly[g][m]?.peak ?? null));
+
+/* ---------- tooltip ---------- */
+const tip = $('tip');
+function showTip(cx, cy, t) {
+  tip.replaceChildren();
+  if (t.head) tip.append(el('div', { class: 'th', text: t.head }));
+  (t.rows || []).forEach(r => tip.append(el('div', { class: 'tr' },
+    r.color ? el('span', { class: 'tk', style: `border-color:${r.color};${r.dash ? 'border-top-style:dashed;' : ''}` }) : null,
+    el('span', { class: 'tv', text: r.value }), el('span', { class: 'tn', text: r.name }))));
+  if (t.note) tip.append(el('div', { class: 'tt', text: t.note }));
+  tip.classList.add('on');
+  const w = tip.offsetWidth, h = tip.offsetHeight, vw = innerWidth, vh = innerHeight;
+  let x = cx + 14, y = cy + 14;
+  if (x + w > vw - 8) x = cx - w - 14;
+  if (x < 8) x = 8;
+  if (y + h > vh - 8) y = cy - h - 14;
+  if (y < 8) y = 8;
+  tip.style.transform = `translate(${x}px,${y}px)`;
+}
+const hideTip = () => tip.classList.remove('on');
+function bindTip(node, build) {
+  const at = e => { const r = node.getBoundingClientRect(); return e.type === 'focus' || e.clientX === undefined ? [r.left + r.width / 2, r.top] : [e.clientX, e.clientY]; };
+  ['pointermove', 'pointerenter', 'focus'].forEach(ev => node.addEventListener(ev, e => { const [x, y] = at(e); showTip(x, y, build()); }));
+  ['pointerleave', 'blur'].forEach(ev => node.addEventListener(ev, hideTip));
+}
+
+/* ---------- shared bits ---------- */
+function niceAxis(max, target = 4) {
+  if (!(max > 0)) return { top: 1, t: [0, 1] };
+  const raw = max / target, e = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / e;
+  const step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * e;
+  const top = Math.ceil(max / step - 1e-9) * step, t = [];
+  for (let v = 0; v <= top + step * 1e-6; v += step) t.push(v);
+  return { top, t };
+}
+function legend(host, items, hiddenSet, rerender) {
+  host.replaceChildren(...items.map(it => {
+    const key = el('span', { class: it.shape === 'sq' ? 'key-sq ' + (it.k || '') : 'key-line' + (it.dash ? ' key-dash' : ''),
+      style: it.shape === 'sq' ? (it.color ? `background:${it.color}` : '') : `border-color:${it.color}` });
+    if (!hiddenSet) return el('li', {}, el('span', { class: 'lgstatic' }, key, el('span', { text: it.name })));
+    const b = el('button', { type: 'button', 'aria-pressed': hiddenSet.has(it.id) ? 'false' : 'true' }, key, el('span', { text: it.name }));
+    b.addEventListener('click', () => { hiddenSet.has(it.id) ? hiddenSet.delete(it.id) : hiddenSet.add(it.id); rerender(); });
+    return el('li', {}, b);
+  }));
+}
+function tableView(host, headers, rows, summary = 'Таблица данных') {
+  const thead = el('thead', {}, el('tr', {}, headers.map(h => el('th', { text: h, scope: 'col' }))));
+  const tbody = el('tbody', {}, rows.map(r => el('tr', {}, r.map((c, i) => i === 0
+    ? el('th', { text: c, scope: 'row', style: 'text-align:left;color:var(--ink);font-weight:500' })
+    : el('td', { text: c, class: 'num' })))));
+  host.replaceChildren(el('details', {}, el('summary', { text: summary }), el('div', { class: 'table-wrap' }, el('table', {}, thead, tbody))));
+}
+
+/* ---------- line chart ---------- */
+function lineChart(host, cfg) {
+  const W = Math.max(280, Math.floor(host.clientWidth)), H = cfg.height || 300, wide = W >= 620;
+  const M = { t: 14, r: wide ? 112 : 18, b: 30, l: cfg.left || 46 };
+  const iw = W - M.l - M.r, ih = H - M.t - M.b, n = cfg.months.length;
+  const vis = cfg.series.filter(s => !cfg.hidden.has(s.id));
+  let max = 0; vis.forEach(s => s.values.forEach(v => { if (v != null && v > max) max = v; }));
+  const ax = niceAxis(max, 4);
+  const x = i => M.l + (n === 1 ? iw / 2 : i * iw / (n - 1));
+  const y = v => M.t + ih - v / ax.top * ih;
+  const svg = sv('svg', { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img', 'aria-label': cfg.aria, tabindex: 0 });
+  ax.t.forEach(v => {
+    svg.append(sv('line', { x1: M.l, x2: W - M.r, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
+    const t = sv('text', { x: M.l - 8, y: y(v) + 4, 'text-anchor': 'end', class: 'tick' }); t.textContent = cfg.yFmt(v); svg.append(t);
+  });
+  const spacing = n > 1 ? iw / (n - 1) : iw, step = [1, 2, 3, 6].find(s => s * spacing >= 46) || 6;
+  cfg.months.forEach((m, i) => {
+    const mo = +m.slice(5); if ((mo - 1) % step !== 0) return;
+    const t = sv('text', { x: x(i), y: H - 8, 'text-anchor': 'middle', class: 'tick' });
+    t.textContent = mo === 1 || i === 0 ? `${mShort(m)} ’${m.slice(2, 4)}` : mShort(m); svg.append(t);
+  });
+  const ends = [];
+  vis.forEach(s => {
+    if (!s.markers) {
+      let d = '', pen = false;
+      s.values.forEach((v, i) => { if (v == null) { pen = false; return; } d += (pen ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1); pen = true; });
+      svg.append(sv('path', { d, class: 'line', stroke: s.color, ...(s.dash ? { 'stroke-dasharray': '5 4' } : {}) }));
+    } else {
+      // consecutive known months are joined, isolated ones stay as markers
+      let d = '', pen = false;
+      s.values.forEach((v, i) => { if (v == null) { pen = false; return; } d += (pen ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1); pen = true; });
+      svg.append(sv('path', { d, class: 'line', stroke: s.color }));
+      s.values.forEach((v, i) => { if (v == null) return;
+        const lb = s.lower && s.lower[i];
+        svg.append(sv('circle', { cx: x(i), cy: y(v), r: 4.5, fill: lb ? 'var(--surface)' : s.color, stroke: lb ? s.color : 'var(--surface)', 'stroke-width': lb ? 2 : 2 })); });
+    }
+    let last = -1; s.values.forEach((v, i) => { if (v != null) last = i; });
+    if (last >= 0) {
+      if (!s.markers) svg.append(sv('circle', { cx: x(last), cy: y(s.values[last]), r: 4, fill: s.color, class: 'ring' }));
+      ends.push({ y: y(s.values[last]), x: x(last), name: s.short || s.name });
+    }
+  });
+  if (wide) {
+    ends.sort((a, b) => a.y - b.y); let prev = -99;
+    ends.forEach(e => { if (e.y - prev < 15) return; prev = e.y;
+      const t = sv('text', { x: e.x + 10, y: e.y + 4, class: 'lab' }); t.textContent = e.name; svg.append(t); });
+  }
+  const cross = sv('g', { style: 'display:none' });
+  const cl = sv('line', { y1: M.t, y2: M.t + ih, class: 'cross' }); cross.append(cl);
+  const cd = vis.map(s => { const c = sv('circle', { r: 4.5, fill: s.color, class: 'ring' }); cross.append(c); return c; });
+  svg.append(cross);
+  const hit = sv('rect', { x: M.l - 6, y: M.t, width: iw + 12, height: ih, fill: 'transparent' }); svg.append(hit);
+  let cur = -1;
+  const setIdx = (i, cx, cy) => {
+    cur = Math.max(0, Math.min(n - 1, i));
+    cross.style.display = ''; cl.setAttribute('x1', x(cur)); cl.setAttribute('x2', x(cur));
+    vis.forEach((s, k) => { const v = s.values[cur]; cd[k].style.display = v == null ? 'none' : ''; if (v != null) { cd[k].setAttribute('cx', x(cur)); cd[k].setAttribute('cy', y(v)); } });
+    const r = svg.getBoundingClientRect();
+    showTip(cx ?? r.left + x(cur), cy ?? r.top + M.t + 20, {
+      head: mLong(cfg.months[cur]),
+      rows: vis.filter(s => s.values[cur] != null).sort((a, b) => b.values[cur] - a.values[cur])
+        .map(s => ({ color: s.color, dash: s.dash, value: cfg.tipFmt(s.values[cur]), name: s.name + (s.lower && s.lower[cur] ? ' (оценка снизу)' : '') })),
+      note: cfg.tipNote && cfg.tipNote(cur),
+    });
+  };
+  const idxAt = e => { const r = svg.getBoundingClientRect(); return Math.round((e.clientX - r.left - M.l) / (spacing || 1)); };
+  hit.addEventListener('pointermove', e => setIdx(idxAt(e), e.clientX, e.clientY));
+  hit.addEventListener('pointerdown', e => setIdx(idxAt(e), e.clientX, e.clientY));
+  svg.addEventListener('pointerleave', () => { cross.style.display = 'none'; hideTip(); });
+  svg.addEventListener('blur', () => { cross.style.display = 'none'; hideTip(); });
+  svg.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') { setIdx(cur < 0 ? 0 : cur + 1); e.preventDefault(); }
+    else if (e.key === 'ArrowLeft') { setIdx(cur < 0 ? n - 1 : cur - 1); e.preventDefault(); }
+    else if (e.key === 'Home') { setIdx(0); e.preventDefault(); } else if (e.key === 'End') { setIdx(n - 1); e.preventDefault(); }
+    else if (e.key === 'Escape') { cross.style.display = 'none'; hideTip(); }
+  });
+  host.replaceChildren(svg);
+}
+
+/* ---------- small multiples: one column panel per game, shared scale ---------- */
+function multiples(host, cfg) {
+  const W = Math.max(280, Math.floor(host.clientWidth)), n = cfg.months.length, wide = W >= 620;
+  const PH = 80, GAP = 26, labelW = wide ? 112 : 60;
+  const M = { t: 6, r: 10, b: 28, l: labelW + 34 };
+  const P = cfg.panels, H = M.t + P.length * (PH + GAP) - GAP + M.b;
+  const iw = W - M.l - M.r, slot = iw / n, bw = Math.min(24, Math.max(4, slot - 3));
+  let max = 0; P.forEach(p => p.values.forEach((v, i) => { const t = (v || 0) + ((p.extra && p.extra[i]) || 0); if (t > max) max = t; }));
+  const ax = niceAxis(max, 2);
+  const svg = sv('svg', { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img', 'aria-label': cfg.aria });
+  const bands = [];
+  P.forEach((p, k) => {
+    const top = M.t + k * (PH + GAP), y = v => top + PH - v / ax.top * PH;
+    ax.t.forEach(v => {
+      svg.append(sv('line', { x1: M.l, x2: W - M.r, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
+      const t = sv('text', { x: M.l - 8, y: y(v) + 4, 'text-anchor': 'end', class: 'tick' }); t.textContent = nf0.format(v); svg.append(t);
+    });
+    svg.append(sv('circle', { cx: 5, cy: top + PH / 2 - (wide ? 8 : 0), r: 5, fill: p.color }));
+    const nm = sv('text', { x: 16, y: top + PH / 2 - (wide ? 4 : -4), class: 'lab', style: 'font-weight:600;fill:var(--ink)' }); nm.textContent = p.name; svg.append(nm);
+    if (wide && p.sub) { const sb = sv('text', { x: 16, y: top + PH / 2 + 12, class: 'tick' }); sb.textContent = p.sub; svg.append(sb); }
+    const band = sv('rect', { y: top, height: PH, width: slot, fill: 'var(--wash)', style: 'display:none' }); svg.append(band); bands.push(band);
+    p.values.forEach((v, i) => {
+      if (v == null) return;
+      const cx = M.l + slot * (i + .5), x0 = cx - bw / 2, hv = v / ax.top * PH, ex = (p.extra && p.extra[i]) || 0, he = ex / ax.top * PH;
+      const bar = (ya, h, op) => { if (h < .5) return; const r = Math.min(3, bw / 2, h);
+        svg.append(sv('path', { d: `M${x0} ${ya + h}V${ya + r}Q${x0} ${ya} ${x0 + r} ${ya}H${x0 + bw - r}Q${x0 + bw} ${ya} ${x0 + bw} ${ya + r}V${ya + h}Z`, fill: p.color, opacity: op })); };
+      if (hv >= .5) {
+        if (he >= .5) svg.append(sv('rect', { x: x0, y: y(v), width: bw, height: hv, fill: p.color }));   // square top when another segment sits above
+        else bar(y(v), hv, 1);
+      }
+      if (he >= .5) bar(y(v + ex), he - 2, .38);                                                          // 2px surface gap between stacked segments
+    });
+  });
+  const step = [1, 2, 3, 6].find(s => s * slot >= 46) || 6;
+  cfg.months.forEach((m, i) => {
+    const mo = +m.slice(5); if ((mo - 1) % step !== 0) return;
+    const t = sv('text', { x: M.l + slot * (i + .5), y: H - 8, 'text-anchor': 'middle', class: 'tick' });
+    t.textContent = mo === 1 || i === 0 ? `${mShort(m)} ’${m.slice(2, 4)}` : mShort(m); svg.append(t);
+  });
+  const hit = sv('rect', { x: M.l, y: M.t, width: iw, height: H - M.t - M.b, fill: 'transparent', tabindex: 0, role: 'img' }); svg.append(hit);
+  let cur = -1;
+  const setIdx = (i, cx, cy) => {
+    cur = Math.max(0, Math.min(n - 1, i));
+    bands.forEach(b => { b.style.display = ''; b.setAttribute('x', M.l + slot * cur); });
+    const r = svg.getBoundingClientRect();
+    showTip(cx ?? r.left + M.l + slot * (cur + .5), cy ?? r.top + M.t + 20, {
+      head: mLong(cfg.months[cur]),
+      rows: P.filter(p => p.values[cur] != null).map(p => ({ color: p.color, value: cfg.tipFmt(p.values[cur]), name: p.name + (p.extra && p.extra[cur] ? ` + ${p.extra[cur]} ${cfg.extraName}` : '') })),
+    });
+  };
+  const idxAt = e => Math.floor((e.clientX - svg.getBoundingClientRect().left - M.l) / slot);
+  hit.addEventListener('pointermove', e => setIdx(idxAt(e), e.clientX, e.clientY));
+  hit.addEventListener('pointerdown', e => setIdx(idxAt(e), e.clientX, e.clientY));
+  const off = () => { bands.forEach(b => { b.style.display = 'none'; }); hideTip(); };
+  svg.addEventListener('pointerleave', off); hit.addEventListener('blur', off);
+  hit.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') { setIdx(cur < 0 ? 0 : cur + 1); e.preventDefault(); }
+    else if (e.key === 'ArrowLeft') { setIdx(cur < 0 ? n - 1 : cur - 1); e.preventDefault(); }
+    else if (e.key === 'Escape') off();
+  });
+  hit.setAttribute('aria-label', cfg.aria + ' (стрелки — переход по месяцам)');
+  host.replaceChildren(svg);
+}
+
+/* ---------- column chart (Deadlock online) ---------- */
+function columnChart(host, cfg) {
+  const W = Math.max(280, Math.floor(host.clientWidth)), H = 260;
+  const M = { t: 22, r: 12, b: 30, l: 48 }, iw = W - M.l - M.r, ih = H - M.t - M.b, n = cfg.months.length;
+  const ax = niceAxis(Math.max(...cfg.values.filter(v => v != null), 1), 4);
+  const slot = iw / n, bw = Math.min(24, Math.max(6, slot - 4)), y = v => M.t + ih - v / ax.top * ih;
+  const svg = sv('svg', { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img', 'aria-label': cfg.aria });
+  ax.t.forEach(v => {
+    svg.append(sv('line', { x1: M.l, x2: W - M.r, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
+    const t = sv('text', { x: M.l - 8, y: y(v) + 4, 'text-anchor': 'end', class: 'tick' }); t.textContent = compact(v); svg.append(t);
+  });
+  const step = [1, 2, 3, 6].find(s => s * slot >= 46) || 6;
+  cfg.months.forEach((m, i) => {
+    const mo = +m.slice(5), cx = M.l + slot * (i + .5);
+    if ((mo - 1) % step === 0) { const t = sv('text', { x: cx, y: H - 8, 'text-anchor': 'middle', class: 'tick' }); t.textContent = mo === 1 || i === 0 ? `${mShort(m)} ’${m.slice(2, 4)}` : mShort(m); svg.append(t); }
+    const v = cfg.values[i]; if (v == null) return;
+    const x0 = cx - bw / 2, y0 = y(v), h = M.t + ih - y0, r = Math.min(4, bw / 2, h);
+    const lb = cfg.lower[i];
+    const path = `M${x0} ${M.t + ih}V${y0 + r}Q${x0} ${y0} ${x0 + r} ${y0}H${x0 + bw - r}Q${x0 + bw} ${y0} ${x0 + bw} ${y0 + r}V${M.t + ih}Z`;
+    const g = sv('g', { tabindex: 0, role: 'img', 'aria-label': `${mLong(m)}: ${nf0.format(v)}${lb ? ', оценка снизу' : ''}` });
+    g.append(sv('rect', { x: cx - slot / 2, y: M.t, width: slot, height: ih, fill: 'transparent' }));
+    g.append(sv('path', { d: path, fill: 'var(--s1)', opacity: lb ? .45 : 1 }));
+    svg.append(g);
+    bindTip(g, () => ({ head: mLong(m), rows: [{ color: 'var(--s1)', value: nf0.format(v), name: lb ? 'оценка снизу' : 'пик онлайна' }], note: cfg.notes[i] || undefined }));
+    // label only local maxima so neighbours never collide
+    let isMax = true; for (let k = Math.max(0, i - 2); k <= Math.min(n - 1, i + 2); k++) if (cfg.values[k] != null && cfg.values[k] > v) isMax = false;
+    if (isMax && !lb) { const t = sv('text', { x: cx, y: y0 - 6, 'text-anchor': 'middle', class: 'capval' }); t.textContent = compact(v); svg.append(t); }
+  });
+  host.replaceChildren(svg);
+}
+
+/* ---------- renderers ---------- */
+function renderHead() {
+  $('asof').textContent = `Данные на ${fmtDate(D.generated.slice(0, 10))} ${D.generated.slice(0, 4)}, ${D.generated.slice(11)}`;
+  document.querySelector('[data-p=window]').textContent = `С мая 2024 (${D.window.months.length} мес.)`;
+}
+
+function renderSummary() {
+  const dl = S('deadlock'), cs = S('cs2'), da = S('dota2');
+  $('heroNum').textContent = '×' + nf1.format(dl.entries_per_100k_peak / da.entries_per_100k_peak);
+  $('heroTxt').replaceChildren(
+    el('div', {}, `Во столько раз плотнее обновляют Deadlock, чем Dota 2, если считать строки патчноутов на каждые 100 тыс. игроков онлайн. Против CS2 разница — в ${times(dl.entries_per_100k_peak / cs.entries_per_100k_peak)}.`),
+    el('small', { text: `${period().label[0].toUpperCase() + period().label.slice(1)}. Аудитория — типичный месячный пик онлайна: ${compact(dl.peak_median)} у Deadlock против ${compact(cs.peak_median)} у CS2 и ${compact(da.peak_median)} у Dota 2.` }));
+  const byUpd = [...GAMES].sort((a, b) => S(b.id).updates_per_month - S(a.id).updates_per_month)[0];
+  const byVol = [...GAMES].sort((a, b) => S(b.id).entries_per_month - S(a.id).entries_per_month);
+  const gtRate = g => S(g).gt_days / gtMonths(g, period().months);
+  const microShare = S('cs2').tiers.micro / S('cs2').updates;
+  const byBuild = [...GAMES].sort((a, b) => gtRate(b.id) - gtRate(a.id));
+  const buildTitle = gtRate(byBuild[1].id) / gtRate(byBuild[0].id) > .85 ? `${byBuild[0].name} ≈ ${byBuild[1].name}` : byBuild[0].name;
+  $('insights').replaceChildren(
+    mini('Чаще всех', `${byUpd.name}: ${nf1.format(S(byUpd.id).updates_per_month)} в месяц`, `Но ${pct(microShare)} обновлений CS2 — микро-правки, медиана ${nf0.format(S('cs2').median_entries)} строк.`),
+    mini('Больше всех изменено', `${byVol[0].name} и ${byVol[1].name}`, `${nf0.format(S(byVol[0].id).entries_per_month)} и ${nf0.format(S(byVol[1].id).entries_per_month)} строк патчноутов в месяц. У CS2 — ${nf0.format(S('cs2').entries_per_month)}, у TF2 — ${nf0.format(S('tf2').entries_per_month)}.`),
+    mini('Сборки в Steam', buildTitle, `Новые версии файлов появляются в ${nf0.format(gtRate('deadlock'))} днях месяца у Deadlock и в ${nf0.format(gtRate('dota2'))} у Dota 2. У CS2 — в ${nf0.format(gtRate('cs2'))}, у TF2 — в ${nf0.format(gtRate('tf2'))}.`),
+    mini('Аудитория', `Deadlock — ${pct(dl.peak_median / cs.peak_median)} от CS2`, `Типичный месячный пик ${compact(dl.peak_median)} против ${compact(cs.peak_median)}. Рекорд ${compact(D.deadlock_ccu.latest_peak.peak)} (2 октября) всё равно в ${times(cs.peak_median / D.deadlock_ccu.latest_peak.peak)} ниже типичного пика CS2.`));
+}
+function mini(k, v, d) { return el('div', { class: 'mini' }, el('div', { class: 'k', text: k }), el('div', { class: 'v', text: v }), el('div', { class: 'd', text: d })); }
+
+function renderScore() {
+  const cols = [
+    { h: 'Обновлений в месяц', v: g => S(g).updates_per_month, f: v => nf1.format(v), bar: true },
+    { h: 'Строк патчноутов в месяц', v: g => S(g).entries_per_month, f: v => nf0.format(v), bar: true },
+    { h: 'Типичный размер обновления, строк (медиана)', v: g => S(g).median_entries, f: v => nf0.format(v) },
+    { h: 'Дней со сборками в Steam в месяц', v: g => S(g).gt_days / gtMonths(g, period().months), f: v => nf1.format(v), bar: true },
+    { h: 'Типичный пик онлайна', v: g => S(g).peak_median, f: v => compact(v), bar: true },
+    { h: 'Строк на 100 тыс. игроков в месяц', v: g => S(g).entries_per_100k_peak, f: v => nf0.format(v), bar: true, strong: true },
+  ];
+  const maxes = cols.map(c => Math.max(...GAMES.map(g => c.v(g.id))));
+  const rows = [...GAMES].map(g => {
+    const last = D.last_update[g.id], days = Math.round((Date.parse(D.generated.slice(0, 10)) - Date.parse(last)) / 864e5);
+    return el('tr', {}, el('td', {}, el('div', { class: 'gname' }, el('span', { class: 'dot', style: `background:${g.color}` }), g.name),
+      el('div', { class: 'gsub', text: days === 0 ? 'обновлена сегодня' : `последнее: ${fmtDate(last)}` })),
+      cols.map((c, i) => { const v = c.v(g.id);
+        return el('td', { class: 'num', style: c.strong ? 'font-weight:650' : '' }, c.f(v),
+          c.bar ? el('div', { class: 'cellbar-track' }, el('div', { class: 'cellbar', style: `width:${Math.max(2, v / maxes[i] * 100)}%;background:${g.color}` })) : null); }));
+  });
+  $('scoreWrap').replaceChildren(el('table', {}, el('thead', {}, el('tr', {}, el('th', { text: 'Игра' }), cols.map(c => el('th', { text: c.h })))), el('tbody', {}, rows)));
+}
+
+function renderUpdates() {
+  const ms = period().months;
+  const wikiOnly = ms.map(m => D.wiki.only_monthly[m]);
+  const mean = v => v.reduce((a, b) => a + (b || 0), 0) / v.length;
+  const panels = GAMES.map(g => {
+    const values = ms.map(m => D.monthly[g.id][m].updates);
+    return { id: g.id, name: g.name, color: g.color, values, sub: `в среднем ${nf1f.format(mean(values))} в месяц`, ...(g.id === 'deadlock' ? { extra: wikiOnly } : {}) };
+  });
+  multiples($('ch-updates'), { months: ms, panels, tipFmt: v => nf0.format(v), extraName: 'из вики', aria: 'Число обновлений по месяцам для четырёх игр' });
+  tableView($('tb-updates'), ['Месяц', 'Deadlock', 'Deadlock: правки только из вики', 'CS2', 'Dota 2', 'TF2'],
+    ms.map((m, i) => [mLong(m), nf0.format(panels[0].values[i]), nf0.format(wikiOnly[i]), nf0.format(panels[1].values[i]), nf0.format(panels[2].values[i]), nf0.format(panels[3].values[i])]));
+}
+function renderCum() {
+  const ms = period().months;
+  const cum = g => { let a = 0; return ms.map(m => (a += D.monthly[g][m].entries)); };
+  const series = GAMES.map(g => ({ id: g.id, name: g.name, color: g.color, values: cum(g.id) }));
+  const draw = () => lineChart($('ch-cum'), { months: ms, series, hidden: hid('cum'), yFmt: v => nf0.format(v), tipFmt: v => nf0.format(v) + ' строк', left: 52, aria: 'Накопленное число строк патчноутов для четырёх игр' });
+  legend($('lg-cum'), series.map(s => ({ id: s.id, name: s.name, color: s.color })), hid('cum'), draw);
+  draw();
+  tableView($('tb-cum'), ['Месяц', ...series.map(s => s.name)], ms.map((m, i) => [mLong(m), ...series.map(s => nf0.format(s.values[i]))]));
+  const rel = ms.reduce((a, m) => a + D.monthly.deadlock[m].release, 0);
+  $('cumNote').textContent = `Посты Deadlock о выходе героев и режимов без списка изменений (${rel} шт. за период) в строки не входят: их объём неизвестен. Реальный объём Deadlock чуть выше показанного.`;
+}
+function renderTiers() {
+  const host = $('ch-tiers');
+  legend($('lg-tiers'), TIERS.map(t => ({ id: t.id, name: t.name + ' · ' + t.rule.split(',')[0], shape: 'sq', k: t.k })), null);
+  host.replaceChildren(...GAMES.map(g => {
+    const s = S(g.id), tot = s.updates;
+    const segs = TIERS.filter(t => (s.tiers[t.id] || 0) > 0).map(t => {
+      const c = s.tiers[t.id], share = c / tot;
+      const label = share >= .1 ? pct(share) : '';
+      const node = el('div', { class: 'seg1 ' + t.cls, style: `flex:${c} 1 0`, tabindex: 0, 'aria-label': `${g.name}, ${t.name}: ${c} из ${tot}` },
+        t.cls === 'rel' && label ? el('span', { class: 'chip', text: label }) : label);
+      bindTip(node, () => ({ head: `${g.name} · ${t.name}`, rows: [{ value: nf0.format(c), name: `из ${nf0.format(tot)} обновлений (${pct(share)})` }], note: t.rule[0].toUpperCase() + t.rule.slice(1) }));
+      return node;
+    });
+    return el('div', { class: 'stack' }, el('div', { class: 'hl' }, el('span', { class: 'dot', style: `background:${g.color}` }), g.name), el('div', { class: 'segs' }, segs), el('div', { class: 'n', text: 'n = ' + nf0.format(tot) }));
+  }));
+  tableView($('tb-tiers'), ['Игра', 'Всего', ...TIERS.map(t => t.name)], GAMES.map(g => [g.name, nf0.format(S(g.id).updates), ...TIERS.map(t => nf0.format(S(g.id).tiers[t.id] || 0))]));
+}
+function renderMix() {
+  const types = [['fix', 'Исправления'], ['new', 'Новое'], ['tune', 'Изменения и баланс'], ['other', 'Прочее']];
+  const rows = GAMES.map(g => { const m = S(g.id).mix, tot = Object.values(m).reduce((a, b) => a + b, 0);
+    return el('tr', {}, el('td', {}, el('div', { class: 'gname' }, el('span', { class: 'dot', style: `background:${g.color}` }), g.name), el('div', { class: 'gsub', text: nf0.format(tot) + ' строк' })),
+      types.map(([k]) => el('td', { class: 'mixcell num' }, pct(m[k] / tot), el('div', { style: 'width:100%;max-width:150px' }, el('div', { class: 'mixbar', style: `width:${Math.max(2, m[k] / tot * 100)}%;background:${g.color}` }))))); });
+  $('mixWrap').replaceChildren(el('table', {}, el('thead', {}, el('tr', {}, el('th', { text: 'Игра' }), types.map(([, n]) => el('th', { text: n, class: 'mixhead' })))), el('tbody', {}, rows)));
+}
+function renderBuilds() {
+  const ms = period().months;
+  const panels = GAMES.map(g => {
+    const values = ms.map(m => (g.id === 'deadlock' && m < dlFirstGT) ? null : D.gametracking[g.id].days[m]);
+    const known = values.filter(v => v != null);
+    return { id: g.id, name: g.name, color: g.color, values, sub: `в среднем ${nf1f.format(known.reduce((a, b) => a + b, 0) / known.length)} дн.` };
+  });
+  multiples($('ch-builds'), { months: ms, panels, tipFmt: v => nf0.format(v) + ' дн.', extraName: '', aria: 'Число дней со сборками в Steam по месяцам для четырёх игр' });
+  tableView($('tb-builds'), ['Месяц', ...GAMES.map(g => g.name)], ms.map((m, i) => [mLong(m), ...panels.map(p => p.values[i] == null ? '—' : nf0.format(p.values[i]))]));
+}
+function renderOnline() {
+  const ms = period().months, L = D.live;
+  $('liveTiles').replaceChildren(...GAMES.map(g => el('div', { class: 'tile' },
+    el('div', { class: 'k' }, el('span', { class: 'dot', style: `background:${g.color}` }), g.name),
+    el('div', { class: 'v', text: L[g.id] != null ? compact(L[g.id]) : '—' }),
+    el('div', { class: 'd', text: 'играют сейчас' }))));
+  const ccuNote = D.deadlock_ccu.monthly_peak;
+  const dlVals = peakSeries('deadlock', ms), lower = ms.map(m => ccuNote.find(p => p.month === m)?.kind === 'lower_bound');
+  const series = [
+    { id: 'deadlock', name: 'Deadlock', color: 'var(--s1)', values: dlVals, markers: true, lower },
+    { id: 'cs2', name: 'CS2', color: 'var(--s2)', values: peakSeries('cs2', ms) },
+    { id: 'dota2', name: 'Dota 2', color: 'var(--s3)', values: peakSeries('dota2', ms) },
+    { id: 'tf2', name: 'TF2', color: 'var(--s4)', values: peakSeries('tf2', ms) },
+  ];
+  const draw = () => lineChart($('ch-online'), { months: ms, series, hidden: hid('online'), yFmt: v => compact(v), tipFmt: v => nf0.format(v), left: 56, height: 320, aria: 'Месячные пики онлайна четырёх игр' });
+  legend($('lg-online'), series.map(s => ({ id: s.id, name: s.name, color: s.color })), hid('online'), draw);
+  draw();
+  tableView($('tb-online'), ['Месяц', ...series.map(s => s.name)], ms.map((m, i) => [mLong(m), ...series.map(s => s.values[i] == null ? 'нет данных' : (s.lower && s.lower[i] ? '≥ ' : '') + nf0.format(s.values[i]))]));
+
+  const notes = ms.map(m => ccuNote.find(p => p.month === m)?.note || '');
+  columnChart($('ch-dl'), { months: ms, values: dlVals, lower, notes, aria: 'Пик онлайна Deadlock по известным месяцам' });
+  tableView($('tb-dl'), ['Месяц', 'Пик онлайна Deadlock', 'Комментарий'], ccuNote.filter(p => ms.includes(p.month)).map(p => [mLong(p.month), (p.kind === 'lower_bound' ? '≥ ' : '') + nf0.format(p.peak), p.note || '']));
+  const v = m => ccuNote.find(p => p.month === m).peak;
+  const x1 = v('2025-08') / v('2025-07'), x2 = v('2026-01') / v('2025-12'), x3 = v('2026-09') / v('2026-08');
+  const cs = ms.map(m => D.ccu_monthly.cs2[m].peak), da = ms.map(m => D.ccu_monthly.dota2[m].peak);
+  const range = (a, b) => (a >= 1e6 && b >= 1e6) ? `${nf1.format(Math.round(a / 1e5) / 10)}–${nf1.format(Math.round(b / 1e5) / 10)} млн` : `${nf0.format(Math.round(a / 1e3))}–${nf0.format(Math.round(b / 1e3))} тыс.`;
+  $('dlNote').textContent = (`Каждый крупный контентный релиз поднимал пик в разы: август 2025 (шесть героев) — ×${nf1.format(x1)}, январь 2026 (Old Gods, New Blood) — ×${nf1.format(x2)}, сентябрь 2026 (City Never Sleeps) — до ×${nf1.format(x3)} к августу и рекорд ${nf0.format(v('2026-09'))}. Для сравнения, месячный пик CS2 за тот же период держался в коридоре ${range(Math.min(...cs), Math.max(...cs))}, а Dota 2 — ${range(Math.min(...da), Math.max(...da))}. Совпадение по времени не доказывает причину, но у зрелых игр такой зависимости пика от обновлений не видно.`).replace('..', '.');
+
+  const rk = [...GAMES].sort((a, b) => S(b.id).entries_per_100k_peak - S(a.id).entries_per_100k_peak);
+  const max = S(rk[0].id).entries_per_100k_peak;
+  $('ratioSub').textContent = `${period().label[0].toUpperCase() + period().label.slice(1)}: среднее число строк патчноутов в месяц, делённое на типичный пик онлайна в сотнях тысяч.`;
+  const host = $('ch-ratio');
+  host.replaceChildren(...rk.map(g => {
+    const val = S(g.id).entries_per_100k_peak;
+    const row = el('div', { class: 'hrow', tabindex: 0, 'aria-label': `${g.name}: ${nf1.format(val)}` },
+      el('div', { class: 'hl' }, el('span', { class: 'dot', style: `background:${g.color}` }), g.name),
+      el('div', { class: 'hb' }, el('div', { class: 'bar', style: `width:${val / max * 86}%;background:${g.color}` }),
+        el('div', { class: 'val', style: `left:calc(${val / max * 86}% + 8px)` }, el('b', { text: nf1.format(val) }))));
+    bindTip(row, () => ({ head: g.name, rows: [{ value: nf1.format(val), name: 'строк на 100 тыс. игроков в месяц' }, { value: nf1.format(S(g.id).updates_per_100k_peak), name: 'обновлений на 100 тыс. игроков в месяц' }], note: `${nf0.format(S(g.id).entries_per_month)} строк в месяц при типичном пике ${compact(S(g.id).peak_median)}` }));
+    return row;
+  }));
+  tableView($('tb-ratio'), ['Игра', 'Строк в месяц', 'Типичный пик онлайна', 'Месяцев с данными об онлайне', 'Строк на 100 тыс.', 'Обновлений на 100 тыс.'],
+    rk.map(g => [g.name, nf0.format(S(g.id).entries_per_month), nf0.format(S(g.id).peak_median), String(S(g.id).peak_months_known), nf1.format(S(g.id).entries_per_100k_peak), nf1.format(S(g.id).updates_per_100k_peak)]));
+  const dl = S('deadlock');
+  $('ratioNote').textContent = `Для Deadlock известно только ${dl.peak_months_known} месяцев из ${ms.length}, и в прессе чаще попадают всплески, поэтому реальный «типичный» онлайн скорее ниже, а перекос в пересчёте на игрока — больше. Это не оценка «правильности»: зрелой игре и не нужно столько изменений на игрока.`;
+}
+
+function renderMethod() {
+  const w = D.wiki, yr = D.window.months.length;
+  $('methodBody').replaceChildren(
+    el('div', { class: 'prose' },
+    el('p', {}, el('b', { text: 'Обновление. ' }), 'День, когда Valve опубликовала патчноуты. Несколько постов за один день считаются одним обновлением. Неполный октябрь 2026 в графики не входит, чтобы не занижать месяц.'),
+    el('ul', {},
+      el('li', {}, el('b', { text: 'CS2' }), ' — посты Steam News с меткой patchnotes (в 2024-м они назывались «Release Notes for …»).'),
+      el('li', {}, el('b', { text: 'Dota 2' }), ' — патчи с dota2.com (7.36 … 7.41f) плюс посты Steam News: хотфиксы, клиентские обновления и списки правок к уже учтённым патчам.'),
+      el('li', {}, el('b', { text: 'TF2' }), ' — посты Steam News с меткой patchnotes, включая сезонные Scream Fortress.'),
+      el('li', {}, el('b', { text: 'Deadlock' }), ' — раздел Changelog форума плюс Steam News. С весны 2026 года заметки в основном выходят в Steam News, а форум хранит ссылки на них. Если пост лишь анонсирует выход героя, его размер считается неизвестным («релиз без списка»). Вики Deadlock отмечает и правки без официального поста: ', nf0.format(w.only_total), ' за период, из них ', nf0.format(w.only_undocumented), ' вообще без описания. Они показаны бледной надстройкой и в остальные метрики не входят.')),
+    el('p', {}, el('b', { text: 'Строка патчноутов. ' }), 'Один пункт списка изменений, заголовки разделов не считаются. Это мера объёма, а не качества: сто правок чисел баланса — не то же самое, что сто новых механик. Поэтому рядом показаны размер обновлений (микро — меньше 10 строк, малые — 10–29, средние — 30–99, крупные — от 100) и состав строк: «исправления» (есть слово fix), «новое» (начинается с added, new и т. п.), «изменения и баланс» (числа или слова increased, reduced, changed …), остальное.'),
+    el('p', {}, el('b', { text: 'Сборки в Steam. ' }), 'Бот SteamDB записывает в репозитории GameTracking коммит при каждом изменении файлов игры в Steam. Считается число дней в месяце хотя бы с одним таким коммитом, то есть учитываются и тихие обновления без патчноутов. В этой метрике Deadlock отслеживается с 9 августа 2024 года. Сюда могут попадать и тестовые ветки.'),
+    el('p', {}, el('b', { text: 'Онлайн. ' }), 'CS2, Dota 2 и TF2 — максимум одновременных игроков за месяц со SteamCharts. Для Deadlock Steam не публикует счётчик, поэтому взяты только месячные пики, названные в статьях со ссылкой на SteamDB, и 10-минутная запись steamdb.com с 2 июля 2026 года (она прореженная, поэтому июль и август — оценка снизу). «Типичный пик» — медиана месячных пиков за период; для Deadlock — медиана по известным месяцам.'),
+    el('p', {}, el('b', { text: 'Ограничения. ' }), 'Deadlock ещё в ранней разработке, а CS2, Dota 2 и TF2 — давно вышедшие продукты, поэтому «нормальная» интенсивность обновлений у них разная, и цифры здесь описывают факт, а не оценку правильности. Данные собраны автоматически и могут содержать пропуски: если Valve не опубликовала заметки, обновление не попадёт ни в одну из патчноут-метрик.')),
+    el('h3', { text: 'Источники', style: 'margin-top:18px' }),
+    el('ul', { class: 'prose src' },
+      src('Steam News API (ISteamNews)', 'https://partner.steamgames.com/doc/webapi/ISteamNews'),
+      src('Журнал изменений Dota 2', 'https://www.dota2.com/patches'),
+      src('Журнал изменений Deadlock (форум)', 'https://forums.playdeadlock.com/forums/changelog.10/'),
+      src('Вики Deadlock — Updates', 'https://deadlock.wiki/Updates'),
+      src('SteamDatabase/GameTracking-CS2', 'https://github.com/SteamDatabase/GameTracking-CS2'),
+      src('SteamDatabase/GameTracking-Dota2', 'https://github.com/SteamDatabase/GameTracking-Dota2'),
+      src('SteamDatabase/GameTracking-Deadlock', 'https://github.com/SteamDatabase/GameTracking-Deadlock'),
+      src('SteamDatabase/GameTracking-TF2', 'https://github.com/SteamDatabase/GameTracking-TF2'),
+      src('SteamCharts: CS2', 'https://steamcharts.com/app/730'), src('SteamCharts: Dota 2', 'https://steamcharts.com/app/570'), src('SteamCharts: TF2', 'https://steamcharts.com/app/440'),
+      ...Object.values(D.deadlock_ccu.sources).map(s => src(s.title, s.url))));
+  $('foot').replaceChildren('Данные собраны ', D.generated, '. Исходные данные: ', el('a', { href: 'data/updates.json', text: 'data/updates.json' }), ' · код сборки и описание — в репозитории проекта.');
+}
+function src(t, u) { return el('li', {}, el('a', { href: u, target: '_blank', rel: 'noopener', text: t })); }
+
+/* ---------- wiring ---------- */
+const all = [renderSummary, renderScore, renderUpdates, renderCum, renderTiers, renderMix, renderBuilds, renderOnline];
+function renderAll() { hideTip(); all.forEach(f => f()); }
+renderHead(); renderMethod(); renderAll();
+$('periodSeg').addEventListener('click', e => {
+  const b = e.target.closest('button[data-p]'); if (!b) return;
+  state.period = b.dataset.p;
+  $('periodSeg').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  renderAll();
+});
+const curTheme = document.documentElement.dataset.theme || 'auto';
+$('themeSeg').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.t === curTheme)));
+$('themeSeg').addEventListener('click', e => {
+  const b = e.target.closest('button[data-t]'); if (!b) return;
+  if (b.dataset.t === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = b.dataset.t;
+  try { b.dataset.t === 'auto' ? localStorage.removeItem('theme') : localStorage.setItem('theme', b.dataset.t); } catch (err) {}
+  $('themeSeg').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+});
+let lastW = document.documentElement.clientWidth, raf = 0;
+addEventListener('resize', () => { const w = document.documentElement.clientWidth; if (w === lastW) return; lastW = w; cancelAnimationFrame(raf); raf = requestAnimationFrame(renderAll); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "_note": "Deadlock is hidden from Steam's public player-count API and from SteamCharts, so there is no continuous series. These are the monthly peaks that could be verified: figures attributed to SteamDB by the cited articles, plus the sampled 10-minute record of steamdb.com (a different site from steamdb.info) which only exists since 2026-07-02 and is therefore a lower bound. Months that are not listed are unknown, not zero.",
+  "monthly_peak": [
+    {"month": "2024-09", "peak": 171490, "kind": "exact", "note": "всё время до сентября 2026 — рекорд (2 сентября 2024)", "src": "dexerto"},
+    {"month": "2025-07", "peak": 15763,  "kind": "exact", "src": "dexerto"},
+    {"month": "2025-08", "peak": 60717,  "kind": "exact", "note": "шесть новых героев", "src": "dexerto"},
+    {"month": "2025-12", "peak": 29153,  "kind": "exact", "src": "dexerto"},
+    {"month": "2026-01", "peak": 100558, "kind": "exact", "note": "Old Gods, New Blood", "src": "chento"},
+    {"month": "2026-02", "peak": 125665, "kind": "exact", "src": "chento"},
+    {"month": "2026-03", "peak": 120267, "kind": "exact", "src": "chento"},
+    {"month": "2026-07", "peak": 92159,  "kind": "lower_bound", "src": "steamdb_com"},
+    {"month": "2026-08", "peak": 85939,  "kind": "lower_bound", "src": "steamdb_com"},
+    {"month": "2026-09", "peak": 228086, "kind": "exact", "note": "City Never Sleeps (29 сентября)", "src": "techtimes"}
+  ],
+  "latest_peak": {"date": "2026-10-02", "peak": 228208, "src": "steamdb_com"},
+  "bounds": [
+    {"text": "В 2025 году онлайн ни разу не превышал 70 тыс., в каждом месяце 2026 — превышал.", "src": "forbes"}
+  ],
+  "sources": {
+    "dexerto": {"title": "Dexerto — How many people play Deadlock? (по данным SteamDB)", "url": "https://www.dexerto.com/gaming/how-many-people-play-deadlock-player-count-2867201/"},
+    "chento": {"title": "Chento — Deadlock Q1 2026 growth vs difficulty (по данным SteamDB)", "url": "https://chento.io/blog/deadlock-q1-2026-growth-vs-difficulty"},
+    "techtimes": {"title": "TechTimes — Deadlock hits all-time peak of 228,086 players", "url": "https://www.techtimes.com/articles/328314/20260930/deadlock-hits-all-time-peak-228086-players-biggest-update-yet.htm"},
+    "forbes": {"title": "Forbes — Deadlock hits highest player count ever", "url": "https://www.forbes.com/sites/mikestubbs/2026/09/30/deadlock-hits-highest-player-count-ever-following-major-patch/"},
+    "steamdb_com": {"title": "steamdb.com Steam Charts — Deadlock (запись раз в 10 минут с 2 июля 2026)", "url": "https://steamdb.com/en/tools/steam-charts/1422450-deadlock"}
+  }
+}
